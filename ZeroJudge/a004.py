@@ -1,5 +1,5 @@
 # Problem link: https://zerojudge.tw/ShowProblem?problemid=a004
-# Status: 
+# Status: AC
 
 
 while True:
