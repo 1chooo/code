@@ -23,8 +23,6 @@ int main ()
             }
         }
 
-    
-
         for (int i = 0; i < row + column; i++)
         {
             for (int j = 0; j < row + column; j++)
