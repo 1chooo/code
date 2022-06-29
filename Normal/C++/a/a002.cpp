@@ -4,11 +4,11 @@ using namespace std;
 
 int main()
 {
-    string inputString;
+    int first, second;
 
-    cin >> inputString;
-
-    cout << "hello, " << inputString << endl;
+    cin >> first >> second;
+    
+    cout << (first + second) << endl;
 
     return 0;
 }
