@@ -1,3 +1,8 @@
+/*
+ Problem link: https://zerojudge.tw/ShowProblem?problemid=a001
+ Status: AC
+*/
+
 #include <iostream>
 
 using namespace std;
