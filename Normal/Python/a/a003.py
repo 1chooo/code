@@ -3,11 +3,11 @@
 
 inputString = str(input()).split()
 
-mounth = int(inputString[0])
+month = int(inputString[0])
 day = int(inputString[1])
 
-def decideFortune(mounth, day) :
-    s = (mounth * 2 + day) % 3
+def decideFortune(month, day) :
+    s = (month * 2 + day) % 3
     if (s == 0) :
         print("普通")
     elif (s == 1) :
@@ -17,4 +17,4 @@ def decideFortune(mounth, day) :
     return
 
 
-decideFortune(mounth, day)
+decideFortune(month, day)
