@@ -8,7 +8,7 @@ b = int(inputString[1])
 c = int(inputString[2])
 
 def discriminant(a, b, c) :
-    d = float(b * b - 4 * a * c)
+    d = float(b * b - 4 * a * c)    # It can also be written as integer.
 
     if (d > 0.0) :
         x1 = int((-b + d ** (1 / 2)) / 2 * a)
