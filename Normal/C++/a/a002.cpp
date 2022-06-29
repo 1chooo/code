@@ -1,6 +1,6 @@
 /*
-Problem link: https://zerojudge.tw/ShowProblem?problemid=a002
-Status: AC
+*  Problem link: https://zerojudge.tw/ShowProblem?problemid=a002
+*  Status: AC
 */
 
 #include <iostream>
