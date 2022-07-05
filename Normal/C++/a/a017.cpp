@@ -11,6 +11,7 @@ using namespace std;
 int main ()
 {
     string inputString;
+    cout << "test" << endl;
 
     while (cin >> inputString)
     {
