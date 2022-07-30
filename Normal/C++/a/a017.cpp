@@ -15,8 +15,9 @@ int main ()
 
     while (cin >> inputString)
     {
-         string temp[INT16_MAX];
+        
          
     }
+
     return 0;
 }

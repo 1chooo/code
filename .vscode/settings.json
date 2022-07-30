@@ -1,6 +1,11 @@
 {
     "files.associations": {
         "iostream": "cpp",
-        "algorithm": "cpp"
-    }
+        "algorithm": "cpp",
+        "iosfwd": "cpp",
+        "string": "cpp",
+        "vector": "cpp",
+        "iterator": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }
