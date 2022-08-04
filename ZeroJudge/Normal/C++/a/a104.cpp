@@ -11,7 +11,6 @@ using namespace std;
 int main(void) {
     int num;
     
-
     while (cin >> num) {
         int arr[1000] = {};
         int temp;
