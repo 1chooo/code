@@ -6,7 +6,8 @@
         "string": "cpp",
         "vector": "cpp",
         "iterator": "cpp",
-        "ios": "cpp"
+        "ios": "cpp",
+        "ostream": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
