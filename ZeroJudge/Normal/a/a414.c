@@ -1,6 +1,9 @@
-#include <iostream>
+/*
+ Problem link: https://zerojudge.tw/ShowProblem?problemid=a414
+ Status: AC
+*/
 
-using namespace std;
+#include <iostream>
 
 int main(void) {
     int n;
