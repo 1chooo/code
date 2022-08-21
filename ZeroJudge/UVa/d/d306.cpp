@@ -1,5 +1,5 @@
 /*
- Problem link: https://zerojudge.tw/ShowProblem?problemid=e926
+ Problem link: https://zerojudge.tw/ShowProblem?problemid=d306
  Status: 
 */
 

@@ -8,7 +8,7 @@
 
 using namespace std;
 
-int main(vodi) {
+int main(void) {
 
     return 0;
 }

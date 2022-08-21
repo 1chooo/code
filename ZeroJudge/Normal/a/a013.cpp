@@ -17,7 +17,9 @@ int main ()
                              {100, "C"},
                              {500, "D"},
                              {1000, "M"}};
-
+    string romeMark[8] = {"I", "V", "X", "L", "C", "D", "M"};
+    int romeNum[8] = {1, 5, 10, 50, 100, 500, 1000};
+    
     while (true)
     {
         string inStr1, inStr2;
