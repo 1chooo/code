@@ -16,11 +16,11 @@ class BigNumber {
 
 int main(void) {
     BigNumber num1, num2;
-    char operator;
+    char opr;
 
-    cin >> num1 >> operator >> num2;
+    cin >> num1 >> opr >> num2;
     
-    switch (operator) {
+    switch (opr) {
         case '+': cout << x + y; break;
         case '-': cout << x - y; break;
         case '*': cout << x * y; break;
