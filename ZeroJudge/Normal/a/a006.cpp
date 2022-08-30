@@ -32,4 +32,6 @@ void discriminant(int a, int b, int c) {
     } else {
         cout << "No real root" << endl;
     }
+
+    return;
 }
