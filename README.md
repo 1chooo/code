@@ -1,6 +1,16 @@
 # Solving Journey
 
 
-TODO: 
+## LeetCode
 
-[ ] Familiar to Data structure and algorithms.`
+## CPE
+
+## APCS
+
+## ZeroJudge
+
+## UVa
+
+## Meta Hacker Cup
+
+## Hacker Rank
