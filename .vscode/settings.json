@@ -65,7 +65,9 @@
     "type_traits": "cpp",
     "typeinfo": "cpp",
     "unordered_map": "cpp",
-    "utility": "cpp"
+    "utility": "cpp",
+    "random": "cpp",
+    "filesystem": "cpp"
   },
   "C_Cpp.errorSquiggles": "Disabled",
   "C_Cpp_Runner.cCompilerPath": "gcc",
