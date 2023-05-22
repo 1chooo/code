@@ -1,3 +1,6 @@
 *.out
 *.o
 *.exe
+
+.vscode/
+.github/
