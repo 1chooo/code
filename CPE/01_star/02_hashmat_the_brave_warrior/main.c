@@ -1,6 +1,6 @@
 /*
  * Author: @1chooo
- * Title: 10050 - Hashmat the brave warrior
+ * Title: 10055 - Hashmat the brave warrior
  * Required: Time limit: 3.000 seconds
  * Link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=996
  * Status: AC

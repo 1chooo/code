@@ -1,3 +1,5 @@
+# One Star
+
 1.	Vito's family	(CPE10406, UVA10041)
 2.	Hashmat the brave warrior	(CPE10407, UVA10055)
 3.	Primary Arithmetic	(CPE10404, UVA10035)
@@ -76,3 +78,8 @@
 其他
 
 49.	Sort! Sort!! and Sort!!!	(CPE11069, UVA11321)
+
+
+## Source
+- [YUI HUANG 演算法學習筆記](https://yuihuang.com/cpe-level-1/)
+- [CPE 大學程式能力檢定](https://yuihuang.com/cpe/)

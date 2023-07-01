@@ -16,9 +16,7 @@ int main()
 
     vector<int> arr(n);
     for (int i = 0; i < n; i++)
-    {
       cin >> arr[i];
-    }
 
     sort(arr.begin(), arr.end());
 
@@ -26,9 +24,7 @@ int main()
     int all = 0;
 
     for (int i = 0; i < n; i++)
-    {
       all += abs(arr[i] - middle);
-    }
 
     cout << all << endl;
   }
