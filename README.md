@@ -1,4 +1,4 @@
-# Solving Journey
+# My Interview Journey
 
 This repository contains my journey of problem-solving, reflecting my dedicated efforts. It also encompasses references to the work of others, which I have used as stepping stones in my problem-solving process. All of this is aimed at gaining a deeper understanding of programming languages and mastering essential concepts such as data structures and algorithms required for software development.
 
