@@ -6,11 +6,19 @@
       "type": "cppdbg",
       "request": "launch",
       "args": [],
-      "stopAtEntry": true,
+      "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/Users/linchunho/GitHubRepo/Solving-Journey",
-      "program": "/Users/linchunho/GitHubRepo/Solving-Journey/build/Debug/outDebug",
-      "MIMode": "gdb"
+      "cwd": "/Users/linchunho/Developer/my-interview-code",
+      "program": "/Users/linchunho/Developer/my-interview-code/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
     }
   ]
 }
