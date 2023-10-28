@@ -1,7 +1,7 @@
 """
 Created Date: 2023-10-28
 Author: @1chooo (Hugo ChunHo Lin)
-Problem link: https://zerojudge.tw/ShowProblem?problemid=a104
+Problem link: https://zerojudge.tw/ShowProblem?problemid=d583
 Status: AC
 """
 
