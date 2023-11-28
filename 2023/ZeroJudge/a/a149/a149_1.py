@@ -14,8 +14,8 @@ for i in range(n):
         ans = 0
     else:
         ans = 1
-        while m:
-            ans *= m % 10
-            m //= 10
+        while m:            # 當 m 不為 0 時，就會一直執行
+            ans *= m % 10   # 得到個位數
+            m //= 10        # 去掉個位數
     
     print(ans)
