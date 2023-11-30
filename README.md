@@ -2,34 +2,7 @@
 
 This repository contains my journey of problem-solving, reflecting my dedicated efforts. It also encompasses references to the work of others, which I have used as stepping stones in my problem-solving process. All of this is aimed at gaining a deeper understanding of programming languages and mastering essential concepts such as data structures and algorithms required for software development.
 
-## Project Structure
-```
-PROJECT_ROOT
-├── APCS/
-├── CPE/
-├── HackerRank/
-├── Leetcode/
-├── MetaHackerCup/
-├── UVa/
-├── ZeroJudge/
-├── README.md
-└── LICENSE
-```
-
-
-## LeetCode
-
-## CPE
-
-## APCS
-
-## ZeroJudge
-
-## UVa
-
-## Meta Hacker Cup
-
-## Hacker Rank
+![](https://leetcard.jacoblin.cool/1chooo?theme=nord&ext=activity)
 
 
 ### Resources
