@@ -5,7 +5,8 @@
 | # | Title | Solution | Difficulty | Time Complexity | Space Complexity |
 |:---:| :-----: | :--------: | :----------: | :----------: | :----------: |
 |1| [Two Sum](./Leetcode/algorithms/easy/0001_two_sum) | [Python](./Leetcode/algorithms/easy/0001_two_sum/0001_two_sum.py) | Easy | <code>O(n<sup>2</sup>)</code> | |
-|13| [Roman to Integer](./Leetcode/algorithms/easy/0013_roman_to_integer) | [Python](./Leetcode/algorithms/easy/0013_roman_to_integer/0013_roman_to_integer.py) | Easy | <code>O(log(n))</code> | |
+|12| [Integer to roman](./Leetcode/algorithms/easy/0012_integer_to_roman) | [Python](./Leetcode/algorithms/easy/0012_integer_to_roman/0012_integer_to_roman.py) | Easy | | |
+|13| [Roman to Integer](./Leetcode/algorithms/easy/0013_roman_to_integer) | [Python](./Leetcode/algorithms/easy/0013_roman_to_integer/0013_roman_to_integer.py) | Easy |  | |
 |21| [Merge Two Sorted Lists](./Leetcode/algorithms/easy/0021_merge_two_sorted_lists) | [Python](./Leetcode/algorithms/easy/0021_merge_two_sorted_lists/0021_merge_two_sorted_lists.py) | Easy | <code>O(log(n))</code> | |
 |35| [Search Insert Position](./Leetcode/algorithms/easy/0035_search_insert_position) | [Python](./Leetcode/algorithms/easy/0035_search_insert_position/0035_search_insert_position.py) | Easy | <code>O(log(n))</code> | |
 |168| [Excel Sheet Column Title](./Leetcode/algorithms/easy/0168_excel_sheet_column_title) | [Python](./Leetcode/algorithms/easy/0168_excel_sheet_column_title/0168_excel_sheet_column_title.py) | Easy | | |
