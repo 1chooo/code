@@ -10,6 +10,7 @@
 |13| [Roman to Integer](./Leetcode/algorithms/easy/0013_roman_to_integer) | [Python](./Leetcode/algorithms/easy/0013_roman_to_integer/0013_roman_to_integer.py) | Easy |  | |
 |21| [Merge Two Sorted Lists](./Leetcode/algorithms/easy/0021_merge_two_sorted_lists) | [Python](./Leetcode/algorithms/easy/0021_merge_two_sorted_lists/0021_merge_two_sorted_lists.py) | Easy | <code>O(log(n))</code> | |
 |21| [Merge Two Sorted Lists](./Leetcode/algorithms/hard/0021_merge_two_sorted_lists) | [Python](./Leetcode/algorithms/hard/0021_merge_two_sorted_lists/0021_merge_two_sorted_lists.py) | Hard | <code>O(1)</code> | |
+|27| [Remove Element](./Leetcode/algorithms/easy/0027_remove_element) | [Python](./Leetcode/algorithms/easy/0027_remove_element/0027_remove_element.py) | Easy |  | |
 |35| [Search Insert Position](./Leetcode/algorithms/easy/0035_search_insert_position) | [Python](./Leetcode/algorithms/easy/0035_search_insert_position/0035_search_insert_position.py) | Easy | <code>O(log(n))</code> | |
 |58| [Length of Last Word](./Leetcode/algorithms/easy/0058_length_of_last_word) | [Python](./Leetcode/algorithms/easy/0058_length_of_last_word/0058_length_of_last_word.py) | Easy |  | |
 |83| [Remove Duplicates from Sorted List](./Leetcode/algorithms/easy/0083_remove_duplicates_from_sorted_list) | [Python](./Leetcode/algorithms/easy/0083_remove_duplicates_from_sorted_list/0083_remove_duplicates_from_sorted_list.py) | Easy |  | |
