@@ -8,6 +8,7 @@
 |2| [Add Two Numbers](./Leetcode/algorithms/medium/0002_add_two_numbers) | [Python](./Leetcode/algorithms/medium/0002_add_two_numbers/0002_add_two_numbers.py) | Medium | | |
 |12| [Integer to roman](./Leetcode/algorithms/medium/0012_integer_to_roman) | [Python](./Leetcode/algorithms/medium/0012_integer_to_roman/0012_integer_to_roman.py) | Medium | | |
 |13| [Roman to Integer](./Leetcode/algorithms/easy/0013_roman_to_integer) | [Python](./Leetcode/algorithms/easy/0013_roman_to_integer/0013_roman_to_integer.py) | Easy |  | |
+|14| [Largest Common Prefix](./Leetcode/algorithms/easy/0014_longest_common_prefix) | [Python](./Leetcode/algorithms/easy/0014_longest_common_prefix/0014_longest_common_prefix.py) | Easy |  | |
 |21| [Merge Two Sorted Lists](./Leetcode/algorithms/easy/0021_merge_two_sorted_lists) | [Python](./Leetcode/algorithms/easy/0021_merge_two_sorted_lists/0021_merge_two_sorted_lists.py) | Easy | <code>O(log(n))</code> | |
 |21| [Merge Two Sorted Lists](./Leetcode/algorithms/hard/0021_merge_two_sorted_lists) | [Python](./Leetcode/algorithms/hard/0021_merge_two_sorted_lists/0021_merge_two_sorted_lists.py) | Hard | <code>O(1)</code> | |
 |27| [Remove Element](./Leetcode/algorithms/easy/0027_remove_element) | [Python](./Leetcode/algorithms/easy/0027_remove_element/0027_remove_element.py) | Easy |  | |
