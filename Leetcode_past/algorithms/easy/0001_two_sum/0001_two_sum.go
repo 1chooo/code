@@ -1,3 +1,5 @@
+package two_sum
+
 func twoSum(nums []int, target int) []int {
     // Base Case
     if len(nums) == 2 {
@@ -20,10 +22,3 @@ func twoSum(nums []int, target int) []int {
     return []int{}
 }
 
-// Example usage
-func main() {
-    nums := []int{2, 7, 11, 15}
-    target := 9
-    result := twoSum(nums, target)
-    fmt.Println(result) // prints [0 1]
-}
