@@ -18,4 +18,5 @@
 |190| [Reverse Bits](./0190_reverse_bits) | [Python](./0190_reverse_bits/0190_reverse_bits.py) | Easy | | |
 |344| [Reverse String](./0344_reverse_string) | [Python](./0344_reverse_string/0344_reverse_string.py) | Easy | <code>O(n<sup>2</sup>)</code> | |
 |541| [Reverse String II](./0541_reverse_string_ii) | [Python](./0541_reverse_string_ii/0541_reverse_string_ii.py) | Easy |  | |
+|1512| [Number of Good Pairs](./1512_number_of_good_pairs) | [Typescripts](./1512_number_of_good_pairs/1512_number_of_good_pairs.ts) | Easy |  | |
 |2264| [Largest 3-Same-Digit Number in String](./2264_largest_3_same_digit_number_in_string) | [Python](./2264_largest_3_same_digit_number_in_string/2264_largest_3_same_digit_number_in_string.py), [GO](./2264_largest_3_same_digit_number_in_string/2264_largest_3_same_digit_number_in_string.go), [C#](./2264_largest_3_same_digit_number_in_string/2264_largest_3_same_digit_number_in_string.cs), [TypeScript](./2264_largest_3_same_digit_number_in_string/2264_largest_3_same_digit_number_in_string.ts) | Easy |  | |
