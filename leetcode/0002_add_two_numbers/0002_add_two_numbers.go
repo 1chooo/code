@@ -5,29 +5,38 @@
  *     Next *ListNode
  * }
  */
- func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
-    dummy := &ListNode{} // Create a dummy node to start the result linked list
-    current := dummy     // Initialize a pointer for traversal
-    carry := 0           // Initialize carry for addition
 
-    for l1 != nil || l2 != nil || carry != 0 {
-        sumVal := carry
+func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
+	dummy := &ListNode{}
+	dummyHead := dummy
+	carry := 0
 
-        if l1 != nil {
-            sumVal += l1.Val
-            l1 = l1.Next
-        }
+	for l1 != nil && l2 != nil {
+		sum := l1.Val + l2.Val + carry
+		dummy.Next = &ListNode{Val: sum % 10}
+		carry = sum / 10
 
-        if l2 != nil {
-            sumVal += l2.Val
-            l2 = l2.Next
-        }
+		l1 = l1.Next
+		l2 = l2.Next
+		dummy = dummy.Next
+	}
 
-        carry = sumVal / 10                    // Update carry
-        val := sumVal % 10                    // Get the value to insert in the new node
-        current.Next = &ListNode{Val: val}    // Create a new node with the calculated value
-        current = current.Next                // Move the pointer to the next node
-    }
+	if l1 == nil {
+		l1, l2 = l2, l1
+	}
 
-    return dummy.Next // Return the next node of the dummy node, which is the starting point of the resultant linked list
+	for l1 != nil {
+		sum := l1.Val + carry
+		dummy.Next = &ListNode{Val: sum % 10}
+		carry = sum / 10
+
+		l1 = l1.Next
+		dummy = dummy.Next
+	}
+
+	if carry != 0 {
+		dummy.Next = &ListNode{Val: carry}
+	}
+
+	return dummyHead.Next
 }
