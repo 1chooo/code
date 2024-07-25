@@ -20,7 +20,7 @@
 
 This repository contains the source code of my problem-solving journey. I will be sharing the process of my problem-solving skills, coding practices, and the journey of my software engineering. I will keep updating this repository with my software engineering journey.
 
-## How to Contribute
+## 💪🏻 How to Contribute
 
 **Pull requests (PRs) are welcome! 🎉**
 
@@ -53,7 +53,7 @@ This repository contains the source code of my problem-solving journey. I will b
 * InterviewBit
 * AtCoder -->
 
-## CONTACT INFO.
+## 📱 CONTACT INFO.
 
 > **Hugo ChunHo Lin**
 > 
@@ -67,7 +67,7 @@ This repository contains the source code of my problem-solving journey. I will b
 > </aside>
 
 
-## LICENSE
+## 🪪 LICENSE
 
 Released under [MIT](./LICENSE) by [@1chooo](https://1chooo.com)
 
