@@ -20,6 +20,7 @@
 
 This repository contains the source code of my problem-solving journey. I will be sharing the process of my problem-solving skills, coding practices, and the journey of my software engineering. I will keep updating this repository with my software engineering journey.
 
+## How to Contribute
 
 **Pull requests (PRs) are welcome! 🎉**
 
@@ -28,14 +29,14 @@ This repository contains the source code of my problem-solving journey. I will b
 > Please follow these guidelines to contribute to this repository:
 >
 > **File Naming Convention:**
-> - Use the format: `source/<id>_<question_name>.<language>`.
+> - Use the format: `<source>/<id>_<question_name>.<language>`.
 > - For example: `leetcode/0001_two_sum.go`.
 > 
 > **Commit Message Format:**
 > - Use the format: `git commit -m "feat(<source>): <id> <question_name>"`. 
 > - For example: `git commit -m "feat(leetcode): 0001 Two Sum"`.
 
-## 📇 Coding Stats
+## 📇 LeetCode Stats
 
 ![](https://leetcard.jacoblin.cool/1chooo?theme=nord&ext=activity)
 
@@ -68,7 +69,7 @@ This repository contains the source code of my problem-solving journey. I will b
 
 ## LICENSE
 
-Released under [MIT](./LICENSE) by [@1chooo](https://github.com/1chooo)
+Released under [MIT](./LICENSE) by [@1chooo](https://1chooo.com)
 
 This software can be modified and reused without restriction. The original license must be included with any copies of this software. If a significant portion of the source code is used, please provide a link back to this repository.
 
