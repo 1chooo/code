@@ -20,6 +20,10 @@
 
 This repository contains the source code of my problem-solving journey. I will be sharing the process of my problem-solving skills, coding practices, and the journey of my software engineering. I will keep updating this repository with my software engineering journey.
 
+## 📇 My LeetCode Stats
+
+![](https://leetcard.jacoblin.cool/1chooo?theme=nord&ext=activity)
+
 ## 💪🏻 How to Contribute
 
 **Pull requests (PRs) are welcome! 🎉**
@@ -36,10 +40,45 @@ This repository contains the source code of my problem-solving journey. I will b
 > - Use the format: `git commit -m "feat(<source>): <id> <question_name>"`. 
 > - For example: `git commit -m "feat(leetcode): 0001 Two Sum"`.
 
-## 📇 LeetCode Stats
 
-![](https://leetcard.jacoblin.cool/1chooo?theme=nord&ext=activity)
+### Forking this Repository:
 
+Fork the [`1chooo/code`](https://github.com/1chooo/code) repository into your own workspace.
+
+### Cloning the Repository to Your Workspace:
+
+```shell
+$ git clone git@github.com:<your_workspace_name>/code.git
+```
+
+### Setting Upstream Remote:
+
+```shell
+$ git remote add upstream git@github.com:1chooo/code.git
+
+$ git remote -v
+origin  git@github.com:<your_user_name>/code.git (fetch)
+origin  git@github.com:<your_user_name>/code.git (push)
+upstream        git@github.com:1chooo/code.git (fetch)
+upstream        git@github.com:1chooo/code.git (push)
+```
+
+### Pull Requests:
+
+If you have any valuable ideas to contribute, please create a pull request and provide details about the outstanding work you've done.
+
+### Issue Reporting:
+
+If you encounter any problems while contributing to this project, please report the issues in the [1chooo/code/issues](https://github.com/1chooo/code/issues) section.
+
+> [!IMPORTANT]  
+> **Make sure to synchronize and update your repository before writing any code.**
+> 
+> 1. Run `git stash save` to temporarily stash your local changes.
+> 2. Run `git fetch upstream` to sync the source project with your local copy.
+> 3. Run `git checkout main` to switch to the main branch.
+> 4. Run `git merge upstream/main` to merge the updated remote version into your local copy. If there are no conflicts, the update process is complete.
+> 5. Run `git stash pop` to apply your temporarily stashed changes back to your working directory. Resolve any conflicts if necessary.
 
 <!-- ### Resources
 * LeetCode
