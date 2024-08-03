@@ -29,13 +29,11 @@ You can return the answer in any order.
 - <code>Only one valid answer exists.</code>
 
 **Follow-up:** Can you come up with an algorithm that is less than <code>O(n<sup>2</sup>)</code> time complexity?
-
 > [!NOTE]
 > - How to use vector?
 > - How to use Hash Map?
 
-
-
+-----
 在這段代碼中，其實已經是一個相當高效的解法，使用了哈希表來實現O(n)的時間複雜度。唯一可以優化的地方是代碼的可讀性和結構。以下是一些改進建議，使代碼更加簡潔且避免無意間修改 `i` 變量：
 
 1. 使用更簡潔的變量命名。
@@ -111,3 +109,50 @@ numMap[target - num] = i
 
 ### 總結
 模擬過程中可以看到，函數在第二輪迭代中找到目標數對並返回結果，這樣的寫法高效且清晰。
+
+-----
+## Python Solution  
+>解法:  
+ 暴力解 -- 使用巢狀迴圈，time complexity 為 O(n<sup>2</sup>)  
+ 雜湊表 -- 用字典建立雜湊表，time complexity 為 O(1)
+
+### 學習重點:
+1. 字典函式使用
+2. 雜湊觀念複習
+
+### 字典函式使用
+
+```
+for i in range(n):
+    complement = target - nums[i]
+    if complement in numDict:
+        return [numDict[complement], i]
+    else: 
+        numDict[nums[i]] = i
+return []
+```
+- 如果補數在`numDict`中，則回傳答案索引；  
+- 如果補數不在`numDict`中，則以`nums[i]`為 key，`i`為 value，存入`numDict`
+
+
+字典中不支持直接以值找鍵，原因: 時間複雜度，值不唯一。  
+
+>[!NOTE]
+>**以鍵找值:**   
+>`Dict[key] = value_to_the_key`，time complexity: O(1)      
+>**以值找鍵:**   
+>透過迴圈遍歷整張表搜尋，或者以迴圈做reversed dictionsry，無論何種的 time complexity: O(n)
+
+
+### 雜湊觀念複習
+在Python中，通常使用Dict實現雜湊，因為效率高，解決碰撞的方式穩定且較為動態。
+ 
+1. **存儲方式:**    
+將 key 轉換為 hash value，對應到字典中的slot (單層字典中 slot 跟 bucket 概念相似；雙層字典中 bucket 中存儲 slot，slot中才有key-value pair)  
+
+2. **面對collision**   
+    1. chaining : 直接在bucket中新增slot，但是會占用額外的記憶體空間。
+    2. open addressing : 
+        1. 線性探測(往下一個 slot 檢查)
+        2. 二次探測(用二次方的方式往下個 slot 檢查)
+        3. 雙重雜湊(直接換一個 hash function 計算)
