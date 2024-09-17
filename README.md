@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img alt="1chooo.com Home Page" src="./docs/cover.png">
+  <img alt="1chooo.com Home Page" src="./.github/cover.png">
 </p>
 
 <h3 align="center">
@@ -12,7 +12,7 @@
 </h3>
 
 <p align="center">
-    <i><b>✨ I moved my focus on <a href="https://go.dev/"><code>GO</code>.</b></a> <img src="./docs/working_hard_go.png" width="20" height="20"></i>
+    <i><b>✨ I moved my focus on <a href="https://go.dev/"><code>GO</code>.</b></a> <img src="./.github/working_hard_go.png" width="20" height="20"></i>
     <br />
     <i>Visit my Blog 👉🏻 <a href="https://blog.1chooo.com"> Hugo's Blog </a> and Medium 👉🏻 <a href="https://medium.com/@1chooo"> Hugo ChunHo Lin.</a></i>
 </p>
