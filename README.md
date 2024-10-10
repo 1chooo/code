@@ -44,7 +44,7 @@ This repository contains the source code of my problem-solving journey. I will b
 > 
 > #### Commit Message Format:
 > 
-> - Use the format: `git commit -m "feat(<source>): <id> <question_name>"`
+> - Use the format: `git commit -m "feat(<source>): <id> <question-name>"`
 > - For example: `git commit -m "feat(leetcode): 0001 Two Sum"`
 
 > [!NOTE]
