@@ -1,3 +1,9 @@
+"""
+* Author: 1chooo<hugo970217@gmail.com>
+* Problem: https://leetcode.com/problems/two-sum/
+* Runtime: 3ms (89.08%)
+"""
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         hMap = {}
@@ -10,8 +16,9 @@ class Solution:
 
         return []
 
-
-# author: Shin0517
+"""
+author: Shin0517
+"""
 class Solution(object):
     def twoSum(self, nums, target):
         numDict = {}
