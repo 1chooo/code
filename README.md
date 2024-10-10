@@ -32,14 +32,36 @@ This repository contains the source code of my problem-solving journey. I will b
 > 
 > Please follow these guidelines to contribute to this repository:
 >
-> **File Naming Convention:**
-> - Use the format: `<source>/<id>_<question_name>.<language>`.
-> - For example: `leetcode/0001_two_sum.go`.
+> #### Contributing Guidelines:
 > 
-> **Commit Message Format:**
-> - Use the format: `git commit -m "feat(<source>): <id> <question_name>"`. 
-> - For example: `git commit -m "feat(leetcode): 0001 Two Sum"`.
+> - If the question or solution **already exists**, you can edit it directly under the current solution.
+> - If it's a new question or solution, create a new folder with the format: `<source>/<id>-<question-name>/solution.<language>`
+> 
+> #### File Naming Convention:
+> 
+> - Use the format: `<source>/<id>-<question-name>/solution.<language>`
+> - For example: `leetcode/0001-two-sum/solution.go`
+> 
+> #### Commit Message Format:
+> 
+> - Use the format: `git commit -m "feat(<source>): <id> <question_name>"`
+> - For example: `git commit -m "feat(leetcode): 0001 Two Sum"`
 
+> [!NOTE]
+> 
+> #### Comment Block (Optional):
+> 
+> You can add a comment block at the top of your solution for additional details, such as problem reference, runtime, and author information.
+>
+> For example:
+> 
+> ```cpp
+> /**
+>  * Author: 1chooo<hugo970217@gmail.com>
+>  * Problem: https://leetcode.com/problems/minimum-string-length-after-removing-substrings
+>  * Runtime: 3ms (89.08%)
+>  */
+> ```
 
 ### Forking this Repository:
 
