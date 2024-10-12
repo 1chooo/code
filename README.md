@@ -34,8 +34,9 @@ This repository contains the source code of my problem-solving journey. I will b
 >
 > #### Contributing Guidelines:
 > 
-> - If the question or solution **already exists**, you can edit it directly under the current solution.
-> - If it's a new question or solution, create a new folder with the format: `<source>/<id>-<question-name>/solution.<language>`
+> 1. If the question or solution **already exists**, you can edit it directly under the current solution.
+> 2. If it's a new question or solution, create a new folder with the format: `<source>/<id>-<question-name>/solution.<language>`
+> 3. Each commit should address only one question.
 > 
 > #### File Naming Convention:
 > 
