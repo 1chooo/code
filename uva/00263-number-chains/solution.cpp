@@ -1,15 +1,22 @@
-// uva263
-//  https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=199
+/**
+ * uva263
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem: https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=199
+ * Runtime:
+ */
 
 #include <algorithm>
 #include <iostream>
 #include <set>
 #include <sstream>
 #include <vector>
+
 using namespace std;
+
 bool cmp(char a, char b) {
     return a > b;
 }
+
 int main() {
     int n;
     set<long long> same;
