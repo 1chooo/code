@@ -1,6 +1,13 @@
-// uva255
-// https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=191
-#include <bits/stdc++.h>
+/**
+ * uva255
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=191
+ * Runtime: 3ms (89.08%)
+ */
+
+#include <iostream>
+#include <cstdio>
+#include <cstdlib>
 
 using namespace std;
 
