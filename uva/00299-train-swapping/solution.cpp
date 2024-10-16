@@ -1,6 +1,10 @@
 /*
- * 本題其實就是考 bubble sort
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Title: 299 - Train Swapping
+ * Required: frequency limit: 3.000 seconds
+ * Status: AC
  */
+
 #include <stdio.h>
 
 int main()
