@@ -1,5 +1,16 @@
-// uva544
-#include <bits/stdc++.h>
+/*
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Title: 544 - Heavy Cargo
+ * Required: frequency limit: 3.000 seconds
+ * uva544
+ * Status: AC
+ */
+
+#include <iostream>
+#include <cstdlib>
+#include <cstdio>
+#include <string>
+#include <map>
 
 using namespace std;
 
