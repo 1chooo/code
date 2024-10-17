@@ -1,4 +1,10 @@
-// https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=889
+/*
+ * Author: @1chooo
+ * Title: 948 - Fibonaccimal Base
+ * Required: frequency limit: 3.000 seconds
+ * Link: https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=889
+ * Status: AC
+ */
 
 #include <iostream>
 
