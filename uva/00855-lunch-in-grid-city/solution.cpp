@@ -1,11 +1,18 @@
-// uva855
-#include <bits/stdc++.h>
+/*
+ * Author: @1chooo
+ * Title: 855 - Lunch in Grid City
+ * Required: frequency limit: 3.000 seconds
+ * Link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=796
+ * Status: AC
+ */
+
 #include <iostream>
 
 using namespace std;
 
 int x[50005];
 int y[50005];
+
 int main() {
     int n;
     cin >> n;
