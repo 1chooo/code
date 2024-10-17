@@ -1,4 +1,10 @@
-// https://vjudge.net/problem/UVA-1022
+/*
+ * Author: @1chooo<hugo970217@gmail.com>
+ * Title: 1022 - Digital Library
+ * Required: frequency limit: 3.000 seconds
+ * Link: https://vjudge.net/problem/UVA-1022
+ * Status: AC
+ */
 
 #include <iostream>
 #include <map>
