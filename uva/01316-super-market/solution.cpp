@@ -1,4 +1,11 @@
-// uva1316
+/*
+ * Author: @1chooo<hugo970217@gmail.com>
+ * Title: 1316 - Supermarket
+ * Required: frequency limit: 3.000 seconds
+ * Link: 
+ * Status: AC
+ */
+
 
 #include <iostream>
 #include <cstdio>
