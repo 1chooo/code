@@ -1,7 +1,15 @@
-// uva1237
+/*
+ * Author: @1chooo<hugo970217@gmail.com>
+ * Title: 1237 - Expert Enough?
+ * Required: frequency limit: 3.000 seconds
+ * Link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3678
+ * Status: AC
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
-int main() {
+
+int main(void) {
     int n;
     scanf("%d", &n);
     while (n--) {
