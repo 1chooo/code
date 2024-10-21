@@ -1,11 +1,3 @@
-/*
- * Author: @1chooo
- * Title: 10041 - Vito's Family
- * Required: Time limit: 3.000 seconds
- * Link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=982
- * Status: AC
- */
-
 #include <algorithm>
 #include <iostream>
 #include <vector>
