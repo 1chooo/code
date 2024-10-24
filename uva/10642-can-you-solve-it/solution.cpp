@@ -1,4 +1,10 @@
-// https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1583
+/*
+ * Author: @1chooo
+ * Title: 10642 - Can You Solve It?
+ * Required: Time limit: 3.000 seconds
+ * Link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1583
+ * Status: AC
+ */
 
 #include <iostream>
 
