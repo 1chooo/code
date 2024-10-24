@@ -1,10 +1,18 @@
-// uva10583
+/*
+ * Author: @1chooo
+ * Title: 10583 - Ubiquitous Religions
+ * Required: Time limit: 3.000 seconds
+ * Link:
+ * Status: AC
+ */
 
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
 
 using namespace std;
 
 #define MXN 50005
+
 int N, M;
 vector<int> G[MXN];
 bool vis[MXN];
