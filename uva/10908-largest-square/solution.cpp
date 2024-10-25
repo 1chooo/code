@@ -1,4 +1,10 @@
-// https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1849
+/*
+ * Author: @1chooo
+ * Title: 10908 - Largest Square
+ * Required: Time limit: 3.000 seconds
+ * Link: https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1849
+ * Status: AC
+ */
 
 #include <cstdio>
 #include <cstring>
@@ -76,4 +82,55 @@ int main() {
         }
     }
     return 0;
+}
+
+/*
+ * Author: @1chooo
+ * Title: 10908 - Largest Square
+ * Required: Time limit: 3.000 seconds
+ * Link: https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1849
+ * Status: AC
+ */
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+    int T;
+    cin >> T;
+    string table[21];
+
+    while (T--) {
+        int m, n, q;
+
+        cin >> m >> n >> q;
+        for (int i = 0; i < m; i++) {
+            table[i].clear();
+            cin >> table[i];
+        }
+        for (int i = 0; i < m; i++) {
+            cout << table[i] << '\n';
+        }
+        cout << m << ' ' << n << ' ' << q << '\n';
+        for (int i = 0; i < q; i++) {
+            int radius = 0;
+            int x, y;
+            cin >> x >> y;
+            char center = table[x][y];
+            while (true) {
+                if (x - radius < 0 || x + radius >= m || y - radius < 0 || y + radius >= n) {
+                    break;
+                } else if (table[x + radius][y - radius] != center || table[x - radius][y + radius] != center || table[x + radius][y + radius] != center || table[x + radius][y - radius] != center) {
+                    break;
+                } else if (table[x + radius][y + radius] != center || table[x - radius][y - radius] != center || table[x - radius][y + radius] != center || table[x - radius][y - radius] != center) {
+                    break;
+                }
+                radius++;
+            }
+
+            cout << 1 + (--radius) * 2 << '\n';
+        }
+    }
 }
