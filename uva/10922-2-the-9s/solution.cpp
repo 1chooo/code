@@ -1,4 +1,10 @@
-// https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1863
+/*
+ * Author: @1chooo
+ * Title: 10922 - 2 the 9s
+ * Required: Time limit: 3.000 seconds
+ * Link: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1863
+ * Status: AC
+ */
 
 #include <iostream>
 #include <string>
