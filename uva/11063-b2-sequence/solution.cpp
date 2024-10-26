@@ -1,4 +1,10 @@
-// https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2004
+/*
+ * Author: @1chooo
+ * Title: 11063 - B2-Sequence
+ * Required: Time limit: 3.000 seconds
+ * Link: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2004
+ * Status: AC
+ */
 
 #include <stdio.h>
 
