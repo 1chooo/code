@@ -1,4 +1,10 @@
-// https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1946
+/*
+ * Author: @1chooo
+ * Title: 11005 - Cheapest Base
+ * Required: Time limit: 3.000 seconds
+ * Link: https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1946
+ * Status: AC
+ */
 
 #include <cstdio>
 #include <cstring>
@@ -19,6 +25,7 @@ int f(int a, int b, int arr[], int &cnt) {
         arr[cnt - i - 1] = tmp[i];
     return 0;
 }
+
 int CalCost(int arr[], int cnt, int cost[]) {
     int sum = 0;
     for (int i = 0; i < cnt; ++i) {
@@ -26,6 +33,7 @@ int CalCost(int arr[], int cnt, int cost[]) {
     }
     return sum;
 }
+
 int main() {
     int a, b, n, num, Min;
     int cost[40];
