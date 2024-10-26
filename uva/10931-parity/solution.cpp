@@ -1,4 +1,10 @@
-// https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1872
+/*
+ * Author: @1chooo
+ * Title: 10931 - Parity
+ * Required: Time limit: 3.000 seconds
+ * Link: https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1872
+ * Status: AC
+ */
 
 #include <iostream>
 #include <stack>
