@@ -1,10 +1,16 @@
-// https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=2261
+/*
+ * Author: @1chooo
+ * Title: 11286 - Conformity
+ * Required: Time limit: 3.000 seconds
+ * Link: https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=2261
+ */
 
 #include <algorithm>
 #include <cstdio>
 #include <iostream>
 #include <map>
 #include <string>
+
 #define NUM 5
 #define LEN 20
 
