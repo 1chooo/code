@@ -1,6 +1,55 @@
+/*
+ * Author: @1chooo
+ * Title: 11417 - GCD
+ * Required: frequency limit: 3.000 seconds
+ * Link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2412
+ * Status: AC
+ */
+
 #include <iostream>
+
 using namespace std;
+
+int gcd(int x, int y) {
+    int r = 0;
+    while (y != 0) {
+        r = x % y;
+        x = y;
+        y = r;
+    }
+    return x;
+}
+
+int main() {
+    int ans[507] = {0}, n;
+    for (int i = 1; i < 507; i++) {
+        ans[i] = ans[i - 1];
+        for (int j = 1; j < i; j++)
+            ans[i] += gcd(i, j);
+    }
+    while (cin >> n) {
+        if (n == 0)
+            break;
+        else
+            cout << ans[n] << endl;
+    }
+    return 0;
+}
+
+/*
+ * Author: @1chooo
+ * Title: 11417 - GCD
+ * Required: frequency limit: 3.000 seconds
+ * Link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2412
+ * Status: AC
+ */
+
+#include <iostream>
+
+using namespace std;
+
 int GCD(int, int); // 自訂函數的原型宣告
+
 int main() {
     int N, G;             // 宣告整數變數 N 和 G ，分別用來儲存輸入資料與每次GCD總和
     while (cin >> N, N) { // 接收標準輸入至 N ，如果 N 為 0 則結束迴圈
