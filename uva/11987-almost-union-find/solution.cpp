@@ -1,7 +1,16 @@
-// uva11987
-#include <bits/stdc++.h>
+/*
+ * Author: @1chooo
+ * Title: 11987 - Almost Union-Find
+ * Required: frequency limit: 1.000 seconds
+ * Link:
+ * Status: AC
+ */
+
+#include <cstdio>
+#include <iostream>
 
 using namespace std;
+
 int ances[200001], num[200001], sum[200001], mapp[200001];
 
 int update(int p) {
