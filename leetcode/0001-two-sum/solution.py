@@ -17,7 +17,9 @@ class Solution:
         return []
 
 """
-author: Shin0517
+* Author: Shin0517
+* Problem: https://leetcode.com/problems/two-sum/
+* Runtime: 
 """
 class Solution(object):
     def twoSum(self, nums, target):

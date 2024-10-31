@@ -1,6 +1,12 @@
+/**
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem: https://leetcode.com/problems/two-sum/
+ * Runtime: 0ms (100.00%)
+ */
+
 class Solution {
-public:
-    vector<int> twoSum(vector<int>& nums, int target) {
+  public:
+    vector<int> twoSum(vector<int> &nums, int target) {
         unordered_map<int, int> hashMap;
 
         for (int i = 0; i < nums.size(); ++i) {

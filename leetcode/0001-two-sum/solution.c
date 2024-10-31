@@ -1,3 +1,9 @@
+/**
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem: https://leetcode.com/problems/two-sum/
+ * Runtime: 0ms (100.00%)
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
