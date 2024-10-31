@@ -1,11 +1,12 @@
 /*
- Problem link: https://zerojudge.tw/ShowProblem?problemid=a001
- Status: AC
-*/
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://zerojudge.tw/ShowProblem?problemid=a001
+ * Status: AC
+ */
 
 import java.util.Scanner;
 
-public class a001 {
+public class Solution {
     public static void main(String[] Args) {
         Scanner myObj = new Scanner(System.in);
         String inStr;

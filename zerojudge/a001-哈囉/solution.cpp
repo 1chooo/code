@@ -1,18 +1,17 @@
 /*
-*  Problem link: https://zerojudge.tw/ShowProblem?problemid=a001
-*  Status: AC
-*/
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://zerojudge.tw/ShowProblem?problemid=a001
+ * Status: AC
+ */
 
 #include <iostream>
 
 using namespace std;
 
-int main()
-{
+int main() {
     string inputString;
 
     cin >> inputString;
-    
     cout << "hello, " << inputString << endl;
 
     return 0;
