@@ -1,4 +1,11 @@
-// uva11730
+/*
+ * Author: @1chooo
+ * Title: 11730 - Number Transformation
+ * Required: frequency limit: 1.000 seconds
+ * Link:
+ * Status: AC
+ */
+
 #include <algorithm>
 #include <cstdio>
 #include <iostream>
@@ -22,9 +29,9 @@ int bfs(int s, int t) {
                 if (count[temp])
                     continue;
 
-                if (temp == t)
+                if (temp == t) {
                     return count[now] + 1;
-                else if (temp < t) {
+                } else if (temp < t) {
                     count[temp] = count[now] + 1;
                     q.push(temp);
                 } else
@@ -37,24 +44,30 @@ int bfs(int s, int t) {
 }
 
 int main() {
-
     int mark[1001];
     int tim = 0, s, t;
     bool notPrime[1001] = {true, true};
     int i, j;
+    int cp;
+    int _case;
+
     for (i = 2; i <= 32; i++)
         for (j = i + i; j < 1001; j += i)
             notPrime[j] = true;
-    int cp = 0;
+    
+    cp = 0;
     for (i = 2; i < 1001; i++)
         if (!notPrime[i])
             prime[cp++] = i;
-    int Case = 0;
+    
+    _case = 0;
     while (cin >> s >> t && s && t) {
-        cout << "Case " << ++Case << ": ";
+        cout << "Case " << ++_case << ": ";
         if (s == t)
             cout << "0" << endl;
         else
             cout << bfs(s, t) << endl;
     }
+
+    return 0;
 }
