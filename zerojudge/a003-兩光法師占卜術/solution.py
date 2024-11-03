@@ -1,5 +1,8 @@
-# Problem link: https://zerojudge.tw/ShowProblem?problemid=a003
-# Status: AC
+"""
+* Author: 1chooo<hugo970217@gmail.com>
+* Problem link: https://zerojudge.tw/ShowProblem?problemid=a003
+* Status: AC
+"""
 
 inputString = str(input()).split()
 

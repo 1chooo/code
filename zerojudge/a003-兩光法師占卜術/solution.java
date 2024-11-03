@@ -1,11 +1,12 @@
 /*
- Problem link: https://zerojudge.tw/ShowProblem?problemid=a003
- Status: AC
-*/
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://zerojudge.tw/ShowProblem?problemid=a003
+ * Status: AC
+ */
 
 import java.util.Scanner;
 
-public class a003 {
+public class solution {
     public static int decideFortune(int month, int day) {
         int s = (month * 2 + day) % 3;
 
@@ -26,7 +27,7 @@ public class a003 {
         month = myObj.nextInt();
         day = myObj.nextInt();
 
-        a003.decideFortune(month, day);        
+        solution.decideFortune(month, day);        
 
         myObj.close();
     }

@@ -1,8 +1,8 @@
 /*
-*  Problem link: https://zerojudge.tw/ShowProblem?problemid=a003
-*  Status: AC
-*/
-
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://zerojudge.tw/ShowProblem?problemid=a003
+ * Status: AC
+ */
 
 #include <iostream>
 
@@ -10,8 +10,7 @@ using namespace std;
 
 int decideFortune(int, int);
 
-int main() 
-{
+int main() {
     int month, day;
 
     cin >> month >> day;
@@ -19,7 +18,7 @@ int main()
     return 0;
 }
 
-int decideFortune (int month, int day) {
+int decideFortune(int month, int day) {
     int s = (month * 2 + day) % 3;
 
     if (s == 0) {
