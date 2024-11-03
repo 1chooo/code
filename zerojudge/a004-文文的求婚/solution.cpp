@@ -1,14 +1,14 @@
 /*
-*  Problem link: https://zerojudge.tw/ShowProblem?problemid=a004
-*  Status: AC
-*/
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://zerojudge.tw/ShowProblem?problemid=a004
+ * Status: AC
+ */
 
 #include <iostream>
 
 using namespace std;
 
-int main () 
-{
+int main() {
     int year;
 
     // Input constantly until EOF
