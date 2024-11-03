@@ -1,13 +1,14 @@
 /*
-*  Problem link: https://zerojudge.tw/ShowProblem?problemid=a005
-*  Status: AC
-*/
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://zerojudge.tw/ShowProblem?problemid=a005
+ * Status: AC
+ */
 
 #include <iostream>
 
 using namespace std;
 
-int main () {
+int main() {
     int runTimes;
     cin >> runTimes;
 
@@ -22,7 +23,7 @@ int main () {
         if ((num[1] - num[0]) == (num[2] - num[1])) {
             cout << num[3] + (num[1] - num[0]) << endl;
         } else {
-            cout << num[3] * (num[1] / num[0]) << endl; 
+            cout << num[3] * (num[1] / num[0]) << endl;
         }
     }
     return 0;
