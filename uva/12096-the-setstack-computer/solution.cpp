@@ -1,5 +1,14 @@
-// uva12096
-#include <bits/stdc++.h>
+/*
+ * Author: @1chooo
+ * Title: 12096 - The SetStack Computer
+ * Required: frequency limit: 1.000 seconds
+ * Link:
+ * Status: AC
+ */
+
+#include <iostream>
+#include <map>
+#include <set>
 
 using namespace std;
 
