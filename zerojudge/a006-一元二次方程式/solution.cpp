@@ -1,17 +1,17 @@
 /*
-* Problem link: https://zerojudge.tw/ShowProblem?problemid=a006
-* Status: AC
-*/
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://zerojudge.tw/ShowProblem?problemid=a006
+ * Status: AC
+ */
 
-#include <iostream> 
 #include <cmath>
+#include <iostream>
 
 using namespace std;
 
 void discriminant(int, int, int);
 
-int main () 
-{
+int main() {
     int a, b, c;
     cin >> a >> b >> c;
 
