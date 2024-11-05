@@ -1,7 +1,16 @@
-// uva13257
-#include <bits/stdc++.h>
+/*
+ * Author: @1chooo<hugo970217@gmail.com>
+ * Title: 13257 - License Plates
+ * Required: frequency limit: 1.000 seconds
+ * Link:
+ * Status: AC
+ */
+
+#include <iostream>
+#include <vector>
 
 using namespace std;
+
 int re[100002];
 
 int main() {
