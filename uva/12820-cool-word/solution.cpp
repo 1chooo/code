@@ -1,4 +1,11 @@
-// uva12820
+/*
+ * Author: @1chooo
+ * Title: 12820 - Cool Word
+ * Required: frequency limit: 1.000 seconds
+ * Link:
+ * Status: AC
+ */
+
 #include <cstdio>
 #include <iostream>
 
