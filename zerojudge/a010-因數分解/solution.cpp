@@ -1,7 +1,8 @@
 /*
-*  https://zerojudge.tw/ShowProblem?problemid=a010
-*  Status: AC
-*/
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://zerojudge.tw/ShowProblem?problemid=a010
+ * Status: AC
+ */
 
 #include <iostream>
 
