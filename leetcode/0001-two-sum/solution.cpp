@@ -4,6 +4,11 @@
  * Runtime: 0ms (100.00%)
  */
 
+const static auto _ = []() {
+    cin.tie(nullptr)->sync_with_stdio(false);
+    return nullptr;
+}();
+
 class Solution {
   public:
     vector<int> twoSum(vector<int> &nums, int target) {
