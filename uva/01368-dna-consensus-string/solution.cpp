@@ -1,4 +1,11 @@
-// uva1368
+/*
+ * Author: @1chooo<hugo970217@gmail.com>
+ * Title: 01368 - DNA Consensus String
+ * Required: frequency limit: 1.000 seconds
+ * Link:
+ * Status: AC
+ */
+
 #include <cstdlib>
 #include <iostream>
 #include <string>
