@@ -1,14 +1,20 @@
+"""
+* Author: 1chooo<hugo970217@gmail.com>
+* Problem: https://leetcode.com/problems/add-two-numbers/
+* Runtime: 3ms (70.91%)
+"""
+
 # Definition for singly-linked list.
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
 
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
-        dummy = ListNode()  # Create a dummy node to start the result linked list
-        current = dummy  # Initialize a pointer for traversal
-        carry = 0  # Initialize carry for addition
+        dummy = ListNode()
+        current = dummy 
+        carry = 0
         
         while l1 or l2 or carry:
             sum_val = carry
@@ -20,8 +26,8 @@ class Solution:
                 sum_val += l2.val
                 l2 = l2.next
             
-            carry, val = divmod(sum_val, 10)  # Update carry and get the value to insert in the new node
-            current.next = ListNode(val)  # Create a new node with the calculated value
-            current = current.next  # Move the pointer to the next node
+            carry, val = divmod(sum_val, 10)
+            current.next = ListNode(val)
+            current = current.next
         
-        return dummy.next  # Return the next node of the dummy node, which is the starting point of the resultant linked list
+        return dummy.next
