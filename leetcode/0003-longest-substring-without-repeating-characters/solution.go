@@ -1,3 +1,9 @@
+/**
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem: https://leetcode.com/problems/longest-substring-without-repeating-characters
+ * Runtime: 1ms (86.16%)
+ */
+
 func lengthOfLongestSubstring(s string) int {
 	charMap := make([]bool, 128)
 
