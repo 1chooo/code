@@ -1,10 +1,11 @@
 /*
-*  Problem link: https://zerojudge.tw/ShowProblem?problemid=a020
-*  Status: AC
-*/
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://zerojudge.tw/ShowProblem?problemid=a020
+ * Status: AC
+ */
 
-#include <iostream>
 #include <cstdlib>
+#include <iostream>
 #include <string>
 
 using namespace std;
@@ -25,11 +26,11 @@ int main(void) {
 
     total = (enNum / 10) + (9 * (enNum % 10));
 
-    int temp = (int) id[9] - 48;
+    int temp = (int)id[9] - 48;
     total += temp;
-    
+
     for (int i = 1; i < 9; i++) {
-        int temp = ((int) id[i] - 48) * num;
+        int temp = ((int)id[i] - 48) * num;
         total += temp;
         num--;
     }
