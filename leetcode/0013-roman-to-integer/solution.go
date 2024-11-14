@@ -1,3 +1,9 @@
+/**
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem: https://leetcode.com/problems/roman-to-integer/
+ * Runtime: 0ms (100.00%)
+ */
+
 func romanToInt(s string) int {
     romanDict := map[byte]int{
         'I': 1,
