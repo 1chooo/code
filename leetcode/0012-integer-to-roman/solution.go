@@ -1,6 +1,12 @@
+/**
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem: https://leetcode.com/problems/integer-to-roman/
+ * Runtime: 0ms (100.00%)
+ */
+
 func intToRoman(num int) string {
     if num < 1 || num > 3999 {
-        return "" // Return an empty string for out-of-range numbers
+        return ""
     }
     
     val := []int{
