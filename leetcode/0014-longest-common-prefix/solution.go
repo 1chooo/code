@@ -1,3 +1,9 @@
+/**
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem: https://leetcode.com/problems/longest-common-prefix/
+ * Runtime: 0ms (100.00%)
+ */
+
 func longestCommonPrefix(strs []string) string {
     if len(strs) == 0 {
         return ""
@@ -16,4 +22,3 @@ func longestCommonPrefix(strs []string) string {
 
     return prefix
 }
-

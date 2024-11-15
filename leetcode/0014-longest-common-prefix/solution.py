@@ -1,3 +1,9 @@
+"""
+* Author: 1chooo<hugo970217@gmail.com>
+* Problem: https://leetcode.com/problems/longest-common-prefix/
+* Runtime: 0ms (100.00%)
+"""
+
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         if not strs:
@@ -12,11 +18,3 @@ class Solution:
                     return ""
         
         return prefix
-
-# Example usage:
-strs1 = ["flower", "flow", "flight"]
-strs2 = ["dog", "racecar", "car"]
-
-solution = Solution()
-print(solution.longestCommonPrefix(strs1))  # Output: "fl"
-print(solution.longestCommonPrefix(strs2))  # Output: ""
