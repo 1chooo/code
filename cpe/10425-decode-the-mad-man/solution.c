@@ -1,6 +1,6 @@
 /*
- * Author: @1chooo
- * Title: 10222 - Decode the Mad man
+ * Author: @1chooo<hugo970217@gmail.com>
+ * Title: 10425 - Decode the Mad man
  * Required: frequency limit: 3.000 seconds
  * Link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=14&page=show_problem&problem=1163
  * Status: AC
