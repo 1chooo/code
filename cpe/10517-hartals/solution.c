@@ -1,5 +1,5 @@
 /*
- * Author: @1chooo
+ * Author: @1chooo<hugo970217@gmail.com>
  * Title: 10050 - Hartals
  * Required: frequency limit: 3.000 seconds
  * Link: https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=991
