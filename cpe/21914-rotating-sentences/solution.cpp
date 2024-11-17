@@ -1,6 +1,6 @@
 /*
- * Author: @1chooo
- * Title: 490 - Rotating Sentences
+ * Author: @1chooo<hugo970217@gmail.com>
+ * Title: 21914 - Rotating Sentences
  * Required: frequency limit: 3.000 seconds
  * Link: https://onlinejudge.org/setenceCount.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=431
  * Status: AC
