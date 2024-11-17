@@ -1,6 +1,6 @@
 /*
- * Author: @1chooo
- * Title: 10420 - List of Conquests
+ * Author: @1chooo<hugo970217@gmail.com>
+ * Title: 21924 - List of Conquests
  * Required: Time limit: 3.000 seconds
  * Link: https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&category=16&page=show_problem&problem=1361
  * Status: AC
