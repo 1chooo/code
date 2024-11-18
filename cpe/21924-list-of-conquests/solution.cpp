@@ -6,29 +6,29 @@
  * Status: AC
  */
 
-#include <iostream>
 #include <cstdlib>
-#include <string>
+#include <iostream>
 #include <map>
+#include <string>
 
 using namespace std;
 
 int main(void) {
 
-  int lines = 0;
-  int i = 0;
-  map<string, int> countries;
-  string tmp;
+    int lines = 0;
+    int i = 0;
+    map<string, int> countries;
+    string tmp;
 
-  cin >> lines;
+    cin >> lines;
 
-  while (lines--) {
-    cin >> tmp;
-    countries[tmp]++;
-    getline(cin, tmp);
-  }
+    while (lines--) {
+        cin >> tmp;
+        countries[tmp]++;
+        getline(cin, tmp);
+    }
 
-  for (map<string, int>::iterator i = countries.begin(); i != countries.end(); i++)
-    cout << i->first << " " << i->second << endl;
-  return 0;
+    for (map<string, int>::iterator i = countries.begin(); i != countries.end(); i++)
+        cout << i->first << " " << i->second << endl;
+    return 0;
 }

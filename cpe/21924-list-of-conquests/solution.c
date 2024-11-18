@@ -13,46 +13,46 @@
 #define MAX_LEN 100
 
 typedef struct {
-  char *name;
-  int count;
+    char *name;
+    int count;
 } Country;
 
 int main(void) {
-  int lines = 0, i = 0;
-  char country[MAX_LEN];
-  char tmp[MAX_LEN];
+    int lines = 0, i = 0;
+    char country[MAX_LEN];
+    char tmp[MAX_LEN];
 
-  Country countries[MAX_LEN];
+    Country countries[MAX_LEN];
 
-  scanf("%d", &lines);
-  getchar();
-
-  for (i = 0; i < lines; i++) {
-    scanf("%s", country);
+    scanf("%d", &lines);
     getchar();
 
-    int j, found = 0;
-    for (j = 0; j < i; j++) {
-      if (strcmp(countries[j].name, country) == 0) {
-        countries[j].count++;
-        found = 1;
-        break;
-      }
+    for (i = 0; i < lines; i++) {
+        scanf("%s", country);
+        getchar();
+
+        int j, found = 0;
+        for (j = 0; j < i; j++) {
+            if (strcmp(countries[j].name, country) == 0) {
+                countries[j].count++;
+                found = 1;
+                break;
+            }
+        }
+
+        if (!found) {
+            countries[i].name = malloc(strlen(country) + 1);
+            strcpy(countries[i].name, country);
+            countries[i].count = 1;
+        }
+
+        fgets(tmp, MAX_LEN, stdin);
     }
 
-    if (!found) {
-      countries[i].name = malloc(strlen(country) + 1);
-      strcpy(countries[i].name, country);
-      countries[i].count = 1;
+    for (i = 0; i < lines; i++) {
+        printf("%s %d\n", countries[i].name, countries[i].count);
+        free(countries[i].name);
     }
 
-    fgets(tmp, MAX_LEN, stdin);
-  }
-
-  for (i = 0; i < lines; i++) {
-    printf("%s %d\n", countries[i].name, countries[i].count);
-    free(countries[i].name);
-  }
-
-  return 0;
+    return 0;
 }
