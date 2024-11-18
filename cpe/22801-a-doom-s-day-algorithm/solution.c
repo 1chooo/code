@@ -1,6 +1,6 @@
 /*
- * Author: @1chooo
- * Title: 12019 - Doom's Day Algorithm
+ * Author: @1chooo<hugo970217@gmail.com>
+ * Title: 22801 - Doom's Day Algorithm
  * Required: frequency limit: 1.000 seconds
  * Link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3170
  * Status: AC
