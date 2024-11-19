@@ -182,3 +182,36 @@ int main() {
         cout << i->first << " " << i->second << "\n";
     return 0;
 }
+
+/*
+ * Author: @1chooo
+ * Title: 10420 - List of Conquests
+ * Required: Time limit: 3.000 seconds
+ * Link: https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&category=16&page=show_problem&problem=1361
+ * Status: AC
+ */
+
+#include <iostream>
+#include <map>
+#include <string>
+
+using namespace std;
+int main() {
+    map<string, int> count;
+    map<string, int>::iterator iter;
+    string first_s;
+    char others[76] = {0};
+    int n;
+    cin >> n;
+    cin.ignore();
+    while (n--) {
+        cin >> first_s;
+        count[first_s]++;
+        cin.getline(others, 76);
+    }
+    for (iter = count.begin(); iter != count.end(); iter++) {
+        cout << iter->first << " ";
+        cout << iter->second << endl;
+    }
+    return 0;
+}
