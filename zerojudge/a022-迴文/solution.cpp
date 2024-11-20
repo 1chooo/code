@@ -1,7 +1,8 @@
 /*
-*  Problem link: https://zerojudge.tw/ShowProblem?problemid=a022
-*  Status: AC
-*/
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://zerojudge.tw/ShowProblem?problemid=a022
+ * Status: AC
+ */
 
 #include <iostream>
 
@@ -21,14 +22,14 @@ int main(void) {
     }
 
     for (int i = 0; i < pivot; i++) {
-            if (inStr[i] == inStr[inStrLen - 1 - i])
-                count++;
+        if (inStr[i] == inStr[inStrLen - 1 - i])
+            count++;
     }
 
     if (count == pivot)
         cout << "yes" << endl;
     else
         cout << "no" << endl;
-    
+
     return 0;
 }
