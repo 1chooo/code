@@ -1,10 +1,11 @@
 /*
-*  Problem link: https://zerojudge.tw/ShowProblem?problemid=a034
-*  Status: AC
-*/
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://zerojudge.tw/ShowProblem?problemid=a034
+ * Status: AC
+ */
 
-#include <iostream>
 #include <cstdlib>
+#include <iostream>
 #include <stack>
 
 #define MAX_SIZE 1000
@@ -35,27 +36,6 @@ int main(void) {
         }
         cout << "\n";
     }
-    
+
     return 0;
 }
-
-/*
-#include <iostream>
-#include <stack>
-using namespace std;
- 
-int main()
-{
-    // Empty stack
-    stack<int> mystack;
-    mystack.push(0);
-    mystack.push(1);
-    mystack.push(2);
- 
-    // Printing content of stack
-    while (!mystack.empty()) {
-        cout << ' ' << mystack.top();
-        mystack.pop();
-    }
-}
-*/
