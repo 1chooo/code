@@ -1,10 +1,14 @@
-# Definition for singly-linked list.
-from typing import Optional
+"""
+* Author: 1chooo<hugo970217@gmail.com>
+* Problem: https://leetcode.com/problems/reverse-nodes-in-k-group
+* Runtime: 0ms (100.00%)
+"""
 
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
 
 class Solution:
     def reverseKGroup(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:

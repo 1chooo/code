@@ -1,15 +1,16 @@
 /**
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem: https://leetcode.com/problems/reverse-nodes-in-k-group
+ * Runtime: 0ms (100.00%)
+ */
+
+/**
  * Definition for singly-linked list.
  * type ListNode struct {
  *     Val int
  *     Next *ListNode
  * }
  */
-
- type ListNode struct {
-	Val  int
-	Next *ListNode
-}
 
 func reverseKGroup(head *ListNode, k int) *ListNode {
 	reverse := func(start, end *ListNode) *ListNode {
