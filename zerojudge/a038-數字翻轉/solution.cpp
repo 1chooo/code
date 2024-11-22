@@ -1,10 +1,10 @@
 /*
-*  Problem link: https://zerojudge.tw/ShowProblem?problemid=a038
-*  Status: AC
-*/
-
-#include <iostream>
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://zerojudge.tw/ShowProblem?problemid=a038
+ * Status: AC
+ */
 #include <cstdlib>
+#include <iostream>
 
 using namespace std;
 
@@ -24,19 +24,19 @@ int main(void) {
         if (i == 0)
             break;
         if (inStr[i] != '0') {
-            mark = 1;       // Mark the place which start with non-zero;
+            mark = 1; // Mark the place which start with non-zero;
         }
-        pivot = i;          // Record the place.
+        pivot = i; // Record the place.
     }
 
     if (mark == 0)
-        cout << 0 << endl;          // if the whole number is zero.
+        cout << 0 << endl; // if the whole number is zero.
     else {
         for (int j = pivot; j >= 0; j--) {
             cout << inStr[j];
         }
         cout << "\n";
-    } 
+    }
 
     return 0;
 }
