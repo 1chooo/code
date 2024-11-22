@@ -1,0 +1,5 @@
+/**
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem: https://leetcode.com/problems/intersection-of-two-linked-lists
+ * Runtime: ms (%)
+ */
