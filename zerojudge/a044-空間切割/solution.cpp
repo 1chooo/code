@@ -1,11 +1,12 @@
 /*
- Problem link: https://zerojudge.tw/ShowProblem?problemid=a044
- Status: AC
- https://www.zhihu.com/question/36889571
-*/
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://zerojudge.tw/ShowProblem?problemid=a044
+ * Status: AC
+ * https://www.zhihu.com/question/36889571
+ */
 
-#include <iostream>
 #include <cstdlib>
+#include <iostream>
 
 using namespace std;
 
