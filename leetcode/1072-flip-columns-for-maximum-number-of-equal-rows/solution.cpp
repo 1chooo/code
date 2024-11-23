@@ -4,6 +4,11 @@
  * Runtime: 12ms (89.13%)
  */
 
+const static auto _ = []() {
+    cin.tie(nullptr)->sync_with_stdio(false);
+    return nullptr;
+}();
+
 class Solution {
   public:
     int maxEqualRowsAfterFlips(vector<vector<int>> &matrix) {
