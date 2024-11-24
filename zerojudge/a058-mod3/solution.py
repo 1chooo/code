@@ -1,3 +1,9 @@
+"""
+Author: 1chooo<hugo970217@gmail.com>
+Problem link:https://zerojudge.tw/ShowProblem?problemid=a058
+Status: AC
+"""
+
 times = int(input())
 
 zero = 0
