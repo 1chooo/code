@@ -1,3 +1,9 @@
+/**
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem: https://leetcode.com/problems/remove-element/
+ * Runtime: 0ms (100.00%)
+ */
+
 func removeElement(nums []int, val int) int {
     k := 0 // Initialize a counter for elements not equal to val
     

@@ -1,3 +1,9 @@
+"""
+* Author: 1chooo<hugo970217@gmail.com>
+* Problem: https://leetcode.com/problems/remove-element/
+* Runtime: 0ms (100.00%)
+"""
+
 class Solution:
     def removeElement(self, nums, val):
         k = 0  # Initialize a counter for elements not equal to val
