@@ -30,6 +30,7 @@ You must write an algorithm with `O(log n)` runtime complexity.
 - `-104 <= target <= 104`
 
 #### [Python] Solution.
+
 ```python
 from typing import List
 
@@ -52,6 +53,7 @@ class Solution:
 ```
 
 #### [C#] Solution.
+
 ```csharp
 public class Solution {
     public int SearchInsert(int[] nums, int target) {

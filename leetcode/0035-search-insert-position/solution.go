@@ -1,6 +1,8 @@
-package main
-
-import "fmt"
+/**
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem: https://leetcode.com/problems/search-insert-position/
+ * Runtime: 0ms (100.00%)
+ */
 
 func searchInsert(nums []int, target int) int {
     left, right := 0, len(nums)-1
@@ -20,10 +22,4 @@ func searchInsert(nums []int, target int) int {
     }
 
     return left
-}
-
-func main() {
-    nums := []int{1, 3, 5, 6}
-    target := 5
-    fmt.Println(searchInsert(nums, target)) // Output: 2
 }
