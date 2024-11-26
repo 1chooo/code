@@ -1,3 +1,9 @@
+/**
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem: https://leetcode.com/problems/climbing-stairs
+ * Runtime: 0ms (100.00%)
+ */
+
 func climbStairs(n int) int {
     if n <= 2 {
         return n
@@ -14,8 +20,13 @@ func climbStairs(n int) int {
     return prev2
 }
 
-
-// Fibonacci: Time Limit Exceeded (TLE)
+/**
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem: https://leetcode.com/problems/climbing-stairs
+ * Runtime: ms (%)
+ * Fibonacci: Time Limit Exceeded (TLE)
+ */
+ 
 func climbStairs(n int) int {
     if n <= 2 {
         return n
