@@ -28,6 +28,17 @@ class Solution {
     }
 };
 
+/**
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem: https://leetcode.com/problems/minimum-array-end
+ * Runtime: 0ms (100.00%)
+ */
+
+const static auto _ = []() {
+    cin.tie(nullptr)->sync_with_stdio(false);
+    return nullptr;
+}();
+
 class Solution {
   public:
     long long minEnd(int n, int x) {
@@ -57,7 +68,17 @@ class Solution {
     }
 };
 
-#include <bitset>
+/**
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem: https://leetcode.com/problems/minimum-array-end
+ * Runtime: 0ms (100.00%)
+ */
+
+const static auto _ = []() {
+    cin.tie(nullptr)->sync_with_stdio(false);
+    return nullptr;
+}();
+
 class Solution {
   public:
     long long minEnd(int n, int x) {
