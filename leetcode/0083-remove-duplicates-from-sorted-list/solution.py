@@ -1,3 +1,9 @@
+"""
+* Author: 1chooo<hugo970217@gmail.com>
+* Problem: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+* Runtime: 0ms (100.00%)
+"""
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
