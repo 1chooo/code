@@ -1,4 +1,12 @@
-https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=998
+/*
+ * Author: @1chooo
+ * Title: 10057 - A Mid-summer Night's Dream
+ * Required: Time limit: 3.000 seconds
+ * Link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=998
+ * Status: AC
+ */
+
+
 
 #include <algorithm>
 #include <iostream>
