@@ -1,3 +1,9 @@
+/**
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem: https://leetcode.com/problems/merge-sorted-array/
+ * Runtime: 0ms (100.00%)
+ */
+
 func merge(nums1 []int, m int, nums2 []int, n int) {
     nums1Copy := make([]int, m)
     copy(nums1Copy, nums1)

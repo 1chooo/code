@@ -1,3 +1,9 @@
+"""
+* Author: 1chooo<hugo970217@gmail.com>
+* Problem: https://leetcode.com/problems/merge-sorted-array/
+* Runtime: 0ms (100.00%)
+"""
+
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
