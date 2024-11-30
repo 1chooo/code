@@ -1,7 +1,8 @@
 /*
- Problem link: https://zerojudge.tw/ShowProblem?problemid=a224
- Status: AC
-*/
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://zerojudge.tw/ShowProblem?problemid=a244
+ * Status: AC
+ */
 
 #include <cmath>
 #include <cstdlib>
