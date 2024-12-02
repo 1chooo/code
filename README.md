@@ -14,7 +14,7 @@
 <p align="center">
     <i><b>✨ I moved my focus on <a href="https://go.dev/"><code>GO</code>.</b></a> <img src="./.github/working_hard_go.png" width="20" height="20"></i>
     <br />
-    <i>Visit my Website 👉🏻 <a href="https:1chooo.com"> 1chooo.com </a> and Medium 👉🏻 <a href="https://medium.com/@1chooo"> Chun-Ho (Hugo) Lin.</a></i>
+    <i>Visit my Website 👉🏻 <a href="https:1chooo.com">1chooo.com</a> and Medium 👉🏻 <a href="https://medium.com/@1chooo">Chun-Ho (Hugo) Lin.</a></i>
 </p>
 
 
