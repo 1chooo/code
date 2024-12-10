@@ -1,4 +1,8 @@
-package excelsheetcolumntitle
+/**
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem: https://leetcode.com/problems/excel-sheet-column-title
+ * Runtime: 0ms (100.00%)
+ */
 
 func convertToTitle(columnNumber int) string {
     alpha := "ABCDEFGHIJKLMNOPQRSTUVWXYZ"

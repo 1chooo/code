@@ -1,3 +1,9 @@
+"""
+* Author: 1chooo<hugo970217@gmail.com>
+* Problem: https://leetcode.com/problems/excel-sheet-column-title
+* Runtime: 0ms (100.00%)
+"""
+
 class Solution:
     def convertToTitle(self, columnNumber: int) -> str:
         alpha = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
@@ -13,6 +19,12 @@ class Solution:
 
         return result[::-1]  # Reverse the result string before returning
     
+"""
+* Author: 1chooo<hugo970217@gmail.com>
+* Problem: https://leetcode.com/problems/excel-sheet-column-title
+* Runtime: 0ms (100.00%)
+"""
+
 class Solution:
     def convertToTitle(self, columnNumber: int) -> str:
         result = ''
@@ -22,8 +34,3 @@ class Solution:
             result = chr(remainder + ord('A')) + result  # Convert remainder to corresponding letter
             columnNumber //= 26  # Update columnNumber for the next iteration
         return result
-
-
-if __name__ == '__main__':
-    solution = Solution()
-    print(solution.convertToTitle(columnNumber=28))
