@@ -1,8 +1,9 @@
 /*
- Problem link: https://zerojudge.tw/ShowProblem?problemid=a410
- Status: AC
- Reference: https://zh.wikipedia.org/wiki/%E5%85%8B%E8%90%8A%E5%A7%86%E6%B3%95%E5%89%87
-*/
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://zerojudge.tw/ShowProblem?problemid=a410
+ * Status: AC
+ * Reference: https://zh.wikipedia.org/wiki/%E5%85%8B%E8%90%8A%E5%A7%86%E6%B3%95%E5%89%87
+ */
 
 #include <cmath>
 #include <cstdlib>
