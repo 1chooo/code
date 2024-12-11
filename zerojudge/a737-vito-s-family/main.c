@@ -1,12 +1,7 @@
-/**
- * @file main.c
- * @author your name (you@domain.com)
- * @brief Vito's family
- * @version 0.1
- * @date 2023-05-08
- *
- * @copyright Copyright (c) 2023
- *
+/*
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://zerojudge.tw/ShowProblem?problemid=a737
+ * Status: AC
  */
 
 #include <math.h>
