@@ -1,3 +1,9 @@
+/**
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem: https://leetcode.com/problems/fraction-addition-and-subtraction
+ * Runtime: 0ms (100.00%)
+ */
+
 func fractionAddition(expression string) string {
     numerator, denominator := 0, 1
 	i, n := 0, len(expression) 
@@ -36,7 +42,6 @@ func fractionAddition(expression string) string {
 
 	return fmt.Sprintf("%d/%d", numerator, denominator)
 }
-
 
 func gcd(a, b int) int {
 	for b != 0 {
