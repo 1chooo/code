@@ -1,3 +1,9 @@
+/**
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem: https://leetcode.com/problems/reverse-bits/
+ * Runtime: 0ms (100.00%)
+ */
+
 package reversebits
 
 func reverseBits(num uint32) uint32 {

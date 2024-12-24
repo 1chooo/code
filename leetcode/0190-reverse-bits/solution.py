@@ -1,3 +1,9 @@
+"""
+* Author: 1chooo<hugo970217@gmail.com>
+* Problem: https://leetcode.com/problems/reverse-bits/
+* Runtime: 0ms (100.00%)
+"""
+
 class Solution:
     def reverseBits(self, n: int) -> int:
         result = 0
