@@ -14,9 +14,9 @@ int sum[SIZE][SIZE] = {
     0,
 };
 
-void print_arr(int arr[SIZE][SIZE], int N) {
-    for (int i = 1; i <= N; i++) {
-        for (int j = 1; j <= N; j++)
+void print_arr(const int arr[SIZE][SIZE], int n) {
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= n; j++)
             printf("%6d", arr[i][j]);
         printf("\n");
     }
