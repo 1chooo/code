@@ -59,7 +59,7 @@ int main() {
 #include <cstdlib>
 #include <iostream>
 
-class Solution {
+class Solution1 {
   public:
     void primaryArithmetic() {
         unsigned long long int a, b;
@@ -96,9 +96,3 @@ class Solution {
         }
     }
 };
-
-int main() {
-    Solution solution;
-    solution.primaryArithmetic();
-    return 0;
-}
