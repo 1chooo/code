@@ -14,8 +14,11 @@ using namespace std;
 
 int main() {
 
-    long long int i, j, temp, n;
-    long long int operation, maxOperation;
+    long long int i;
+    long long int j;
+    long long int temp;
+    long long int n;
+    long long int operation;
 
     while (cin >> i >> j) {
         bool change = false;
@@ -27,7 +30,7 @@ int main() {
             change = true;
         }
 
-        maxOperation = 0;
+        long long int maxOperation = 0;
 
         for (int a = i; a <= j; a++) {
             n = a;
