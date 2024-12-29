@@ -9,22 +9,24 @@
 #include <stdio.h>
 
 int main(void) {
-    char R[100];
-    int tmp, sum, max;
+    char r[100];
+    int tmp;
+    int sum;
+    int max;
 
-    while (fgets(R, sizeof(R), stdin) != NULL) {
+    while (fgets(r, sizeof(r), stdin) != NULL) {
 
         sum = 0;
         max = 1;
         int i;
 
-        for (i = 0; R[i] != '\0'; i++) {
-            if (R[i] >= '0' && R[i] <= '9')
-                tmp = R[i] - '0';
-            else if (R[i] >= 'A' && R[i] <= 'Z')
-                tmp = R[i] - 'A' + 10;
-            else if (R[i] >= 'a' && R[i] <= 'z')
-                tmp = R[i] - 'a' + (10 + 26);
+        for (i = 0; r[i] != '\0'; i++) {
+            if (r[i] >= '0' && r[i] <= '9')
+                tmp = r[i] - '0';
+            else if (r[i] >= 'A' && r[i] <= 'Z')
+                tmp = r[i] - 'A' + 10;
+            else if (r[i] >= 'a' && r[i] <= 'z')
+                tmp = r[i] - 'a' + (10 + 26);
             else
                 continue;
 

@@ -19,22 +19,24 @@ using namespace std;
 
 int main(void) {
 
-    string R;
-    int tmp, sum, max;
+    string r;
+    int tmp;
+    int sum;
+    int max;
 
-    while (getline(cin, R)) {
+    while (getline(cin, r)) {
 
         sum = 0;
         max = 1;
         int i;
 
-        for (i = 0; i < R.size(); i++) {
-            if (R[i] >= '0' && R[i] <= '9')
-                tmp = R[i] - '0';
-            else if (R[i] >= 'A' && R[i] <= 'Z')
-                tmp = R[i] - 'A' + 10;
-            else if (R[i] >= 'a' && R[i] <= 'z')
-                tmp = R[i] - 'a' + (10 + 26);
+        for (i = 0; i < r.size(); i++) {
+            if (r[i] >= '0' && r[i] <= '9')
+                tmp = r[i] - '0';
+            else if (r[i] >= 'A' && r[i] <= 'Z')
+                tmp = r[i] - 'A' + 10;
+            else if (r[i] >= 'a' && r[i] <= 'z')
+                tmp = r[i] - 'a' + (10 + 26);
             else
                 continue;
 
