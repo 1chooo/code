@@ -16,9 +16,8 @@ using namespace std;
 void quickSort(int[], int, int);
 
 int main(void) {
-
     int cases;
-    int i, j;
+    int i;
     int streetNumbers[30000] = {0};
 
     cin >> cases;
