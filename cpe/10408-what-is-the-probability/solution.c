@@ -10,9 +10,11 @@
 #include <stdio.h>
 
 int main(void) {
-
-    int set, num, serial;
-    double prob, q;
+    int set;
+    int num;
+    int serial;
+    double prob;
+    double q;
     double result;
 
     scanf("%d", &set);
