@@ -21,13 +21,10 @@ int main(void) {
 
     string r;
     int tmp;
-    int sum;
-    int max;
 
     while (getline(cin, r)) {
-
-        sum = 0;
-        max = 1;
+        int sum = 0;
+        int max = 1;
         int i;
 
         for (i = 0; i < r.size(); i++) {

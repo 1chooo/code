@@ -11,13 +11,11 @@
 int main(void) {
     char r[100];
     int tmp;
-    int sum;
-    int max;
 
     while (fgets(r, sizeof(r), stdin) != NULL) {
 
-        sum = 0;
-        max = 1;
+        int sum = 0;
+        int max = 1;
         int i;
 
         for (i = 0; r[i] != '\0'; i++) {
