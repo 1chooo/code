@@ -15,6 +15,7 @@
 int input[SIZE][SIZE] = {
     0,
 };
+
 int sum[SIZE][SIZE] = {
     0,
 };
@@ -28,23 +29,29 @@ void print_arr(const int arr[SIZE][SIZE], int n) {
     printf("\n");
 }
 
-int solve(int N) {
+int solve(int n) {
     // set sum(input[1][1] ~ input[i][j]) to sum[i][j]
-    for (int i = 0; i <= N; i++)
-        for (int j = 0; j <= N; j++)
-            sum[i][j] = sum[i - 1][j] + sum[i][j - 1] + input[i][j] - sum[i - 1][j - 1];
+    for (int i = 0; i <= n; i++)
+        for (int j = 0; j <= n; j++)
+            sum[i][j] = sum[i - 1][j] +
+                        sum[i][j - 1] +
+                        input[i][j] -
+                        sum[i - 1][j - 1];
 
     // for debug
     // print_arr(sum, N);
 
     // get maximum sum of sum(input[i][j] ~ input[x][y])
     int maximum = INT_MIN;
-    for (int x = 0; x <= N; x++) {
-        for (int y = 0; y <= N; y++) {
+    for (int x = 0; x <= n; x++) {
+        for (int y = 0; y <= n; y++) {
             for (int i = 0; i <= x; i++) {
                 for (int j = 0; j <= y; j++) {
                     // the s is sum of [i][j] ~ [x][y])
-                    int s = sum[x][y] - sum[i][y] - sum[x][j] + sum[i][j];
+                    int s = sum[x][y] -
+                            sum[i][y] -
+                            sum[x][j] +
+                            sum[i][j];
                     maximum = max(maximum, s);
                 }
             }
@@ -52,4 +59,17 @@ int solve(int N) {
     }
 
     return maximum;
+}
+
+int main() {
+    int n;
+    while (scanf("%d", &n) != EOF) {
+        for (int i = 1; i <= n; i++)
+            for (int j = 1; j <= n; j++)
+                scanf("%d", &input[i][j]);
+
+        printf("%d\n", solve(n));
+    }
+
+    return 0;
 }
