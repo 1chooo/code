@@ -17,7 +17,6 @@ using namespace std;
 int main(void) {
 
     int n;
-    bool jolly;
     int sequence[3001];
     vector<int> check;
 
@@ -32,7 +31,7 @@ int main(void) {
 
         sort(check.begin(), check.end());
 
-        jolly = true;
+        bool jolly = true;
 
         for (int i = 0; i < n - 1; i++) {
             if (check[i] != i + 1) {

@@ -12,7 +12,6 @@
 
 int main(void) {
     int n;
-    bool jolly;
     int sequence[3001];
     int check[3000];
 
@@ -33,7 +32,7 @@ int main(void) {
             }
         }
 
-        jolly = true;
+        bool jolly = true;
 
         for (int i = 0; i < n - 1; i++) {
             if (check[i] != i + 1) {
