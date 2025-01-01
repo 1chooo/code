@@ -15,12 +15,12 @@ using namespace std;
 
 int main(void) {
 
-    string first, second;
-    int countFirst, countSecond;
+    string first;
+    string second;
 
     while (getline(cin, first) && getline(cin, second)) {
-        countFirst = 0;
-        countSecond = 0;
+        int countFirst = 0;
+        int countSecond = 0;
 
         int letter[26] = {0};
 
