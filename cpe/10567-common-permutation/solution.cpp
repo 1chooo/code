@@ -14,19 +14,15 @@
 using namespace std;
 
 int main(void) {
-
     string first;
     string second;
 
     while (getline(cin, first) && getline(cin, second)) {
-        int countFirst = 0;
-        int countSecond = 0;
-
         int letter[26] = {0};
 
         for (int i = 0; i < 26; i++) {
-            countFirst = count(first.begin(), first.end(), 'a' + i);
-            countSecond = count(second.begin(), second.end(), 'a' + i);
+            int countFirst = count(first.begin(), first.end(), 'a' + i);
+            int countSecond = count(second.begin(), second.end(), 'a' + i);
 
             letter[i] = min(countFirst, countSecond);
 
