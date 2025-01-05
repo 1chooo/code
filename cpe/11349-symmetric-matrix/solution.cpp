@@ -13,20 +13,20 @@
 using namespace std;
 
 int main(void) {
-
-    string strN, strEqual;
     int testCases;
-    int N;
     int testCount = 1;
-    long long arr[10500];
 
     cin >> testCases;
 
     while (testCases--) {
+        string strN;
+        string strEqual;
+        int n;
+        long long arr[10500];
 
-        cin >> strN >> strEqual >> N;
+        cin >> strN >> strEqual >> n;
 
-        int inputLen = N * N;
+        int inputLen = n * n;
 
         for (int i = 0; i < inputLen; i++)
             cin >> arr[i];
