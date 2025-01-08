@@ -16,7 +16,8 @@ using namespace std;
 
 int main() {
 
-  long long int army1, army2;
+  long long int army1;
+  long long int army2;
 
   while(cin >> army1 >> army2)
     cout << abs(army1 - army2) << endl;

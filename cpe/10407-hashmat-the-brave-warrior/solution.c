@@ -11,12 +11,13 @@
 
 int main() {
 
-  long long hashmat, opponent, difference;
-  
-  while (scanf("%lld %lld", &hashmat, &opponent) == 2) {
-      difference = abs(hashmat - opponent);
-      printf("%lld\n", difference);
-  }
+    long long hashmat;
+    long long opponent;
 
-  return 0;
+    while (scanf("%lld %lld", &hashmat, &opponent) == 2) {
+        long long difference = abs(hashmat - opponent);
+        printf("%lld\n", difference);
+    }
+
+    return 0;
 }
