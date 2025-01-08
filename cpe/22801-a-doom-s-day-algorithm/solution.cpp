@@ -16,7 +16,8 @@ using namespace std;
 int main(void) {
 
     int cases;
-    int month, day;
+    int month;
+    int day;
     string weekday[7] = {
         "Monday", "Tuesday", "Wednesday",
         "Thursday", "Friday", "Saturday",
@@ -47,7 +48,9 @@ int main(void) {
 }
 
 #include <iostream>
+
 using namespace std;
+
 int main() {
     int days[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
     string day[] = {"Friday", "Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"};
@@ -66,6 +69,7 @@ int main() {
 
 #include <iostream>
 #include <string>
+
 using namespace std;
 
 int main() {

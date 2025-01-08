@@ -12,36 +12,34 @@
 
 int main(void) {
 
-  int cases;
-  int month, day;
-  char* weekday[7] = {
-    "Monday", "Tuesday", "Wednesday",
-    "Thursday", "Friday", "Saturday",
-    "Sunday"
-  };
-  int daysOfNonLeapYear[12] = {
-    31, 28, 31,
-    30, 31, 30,
-    31, 31, 30,
-    31, 30, 31
-  };
+    int cases;
+    int month;
+    int day;
+    char *weekday[7] = {
+        "Monday", "Tuesday", "Wednesday",
+        "Thursday", "Friday", "Saturday",
+        "Sunday"};
+    int daysOfNonLeapYear[12] = {
+        31, 28, 31,
+        30, 31, 30,
+        31, 31, 30,
+        31, 30, 31};
 
-  scanf("%d", &cases);
+    scanf("%d", &cases);
 
-  // 2010/12/31: Friday
-  // 2022/12/31: Saturday
-  while (cases--) {
-    scanf("%d %d", &month, &day);
+    
+    while (cases--) {
+        scanf("%d %d", &month, &day);
 
-    int dayCount = 4;
-    int i;
+        int dayCount = 4;
+        int i;
 
-    for (i = 0; i < month - 1; i++)
-      dayCount += daysOfNonLeapYear[i];
+        for (i = 0; i < month - 1; i++)
+            dayCount += daysOfNonLeapYear[i];
 
-    dayCount = (dayCount + day) % 7;
-    printf("%s\n", weekday[dayCount]);
-  }
+        dayCount = (dayCount + day) % 7;
+        printf("%s\n", weekday[dayCount]);
+    }
 
-  return 0;
+    return 0;
 }
