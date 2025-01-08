@@ -18,7 +18,8 @@ typedef struct {
 } Country;
 
 int main(void) {
-    int lines = 0, i = 0;
+    int lines = 0;
+    int i = 0;
     char country[MAX_LEN];
     char tmp[MAX_LEN];
 
