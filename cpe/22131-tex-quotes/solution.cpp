@@ -15,13 +15,11 @@
 using namespace std;
 
 int main(void) {
-
     string sentance;
-    int length;
     int count = 0;
 
     while (getline(cin, sentance)) {
-        length = sentance.length();
+        int length = sentance.length();
 
         for (int i = 0; i < length; i++) {
             if (sentance[i] == '\"') {
@@ -37,5 +35,6 @@ int main(void) {
         }
         cout << endl;
     }
+    
     return 0;
 }

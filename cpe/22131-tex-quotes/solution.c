@@ -11,11 +11,10 @@
 
 int main(void) {
     char sentence[1000];
-    int length;
     int count = 0;
 
     while (fgets(sentence, sizeof(sentence), stdin)) {
-        length = strlen(sentence);
+        int length = strlen(sentence);
 
         for (int i = 0; i < length; i++) {
             if (sentence[i] == '\"') {
