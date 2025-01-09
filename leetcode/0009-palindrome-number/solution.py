@@ -9,12 +9,12 @@ class Solution:
         if (x < 0):
             return False
         
-        reversed: int = 0
+        reversed_number: int = 0
         temp: int = x
 
         while (temp != 0):
             digit: int = temp % 10
-            reversed = reversed * 10 + digit
+            reversed_number = reversed_number * 10 + digit
             temp = temp // 10
 
-        return x == reversed
+        return x == reversed_number
