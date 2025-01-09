@@ -16,8 +16,7 @@ using namespace std;
 int main(void) {
 
     string message;
-    string table;
-    table = "`1234567890-=qwertyuiop[]\\asdfghjkl;'zxcvbnm,./";
+    const string table = "`1234567890-=qwertyuiop[]\\asdfghjkl;'zxcvbnm,./";
 
     getline(cin, message);
 
