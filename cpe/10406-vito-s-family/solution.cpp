@@ -17,16 +17,15 @@ void quickSort(int[], int, int);
 
 int main(void) {
     int cases;
-    int i;
-    int streetNumbers[30000] = {0};
 
     cin >> cases;
 
     while (cases--) {
         int relatives; // 0 < r < 500.
+        int streetNumbers[30000] = {0};
 
         cin >> relatives;
-        for (i = 0; i < relatives; i++)
+        for (int i = 0; i < relatives; i++)
             cin >> streetNumbers[i];
 
         quickSort(streetNumbers, 0, relatives - 1);
@@ -50,7 +49,8 @@ int main(void) {
 }
 
 void quickSort(int arr[], int left, int right) {
-    int i = left, j = right;
+    int i = left;
+    int j = right;
     int tmp;
     int pivot = arr[(left + right) / 2];
 
