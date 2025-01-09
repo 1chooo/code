@@ -11,15 +11,15 @@
 #include <string.h>
 
 int main(void) {
-
     int cases;
     int month;
     int day;
-    char *weekday[7] = {
+
+    const char *weekday[7] = {
         "Monday", "Tuesday", "Wednesday",
         "Thursday", "Friday", "Saturday",
         "Sunday"};
-    int daysOfNonLeapYear[12] = {
+    const int daysOfNonLeapYear[12] = {
         31, 28, 31,
         30, 31, 30,
         31, 31, 30,
@@ -27,7 +27,6 @@ int main(void) {
 
     scanf("%d", &cases);
 
-    
     while (cases--) {
         scanf("%d %d", &month, &day);
 
