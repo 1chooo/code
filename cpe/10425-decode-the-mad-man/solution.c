@@ -11,7 +11,7 @@
 
 int main(void) {
     char message[1001];
-    char table[] = "`1234567890-=qwertyuiop[]\\asdfghjkl;'zxcvbnm,./";
+    const char table[] = "`1234567890-=qwertyuiop[]\\asdfghjkl;'zxcvbnm,./";
 
     fgets(message, sizeof(message), stdin);
     message[strcspn(message, "\n")] = '\0'; // Remove trailing newline if present
@@ -27,7 +27,7 @@ int main(void) {
                     break;
                 }
             }
-            if (index != -1 && index >= 2)
+            if (index >= 2)
                 printf("%c", table[index - 2]);
         }
     }
