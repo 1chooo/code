@@ -14,16 +14,15 @@
 using namespace std;
 
 int main(void) {
-
     string line;
-    int sum;
 
     while (cin >> line && line != "0") {
-
         if (line.length() == 1) {
             cout << line << endl;
             continue;
         }
+
+        int sum;
 
         while (line.length() > 1) {
             sum = 0;
