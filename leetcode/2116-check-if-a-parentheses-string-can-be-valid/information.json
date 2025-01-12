@@ -1,0 +1,35 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Valid Parentheses",
+            "titleSlug": "valid-parentheses",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Generate Parentheses",
+            "titleSlug": "generate-parentheses",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Valid Parenthesis String",
+            "titleSlug": "valid-parenthesis-string",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Minimum Remove to Make Valid Parentheses",
+            "titleSlug": "minimum-remove-to-make-valid-parentheses",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": " Check if There Is a Valid Parentheses String Path",
+            "titleSlug": "check-if-there-is-a-valid-parentheses-string-path",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        }
+    ]
+}
