@@ -1,1 +1,0 @@
-# [e273. 微分入門課](https://zerojudge.tw/ShowProblem?problemid=e273)
