@@ -22,7 +22,7 @@ int main(void) {
             continue;
         }
 
-        int sum;
+        int sum = 0;
 
         while (line.length() > 1) {
             sum = 0;
