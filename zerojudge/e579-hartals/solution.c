@@ -1,8 +1,6 @@
 /*
- * Author: @1chooo
- * Title: 10050 - Hartals
- * Required: frequency limit: 3.000 seconds
- * Link: https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=991
+ * Author: @1chooo<hugo970217@gmail.com>
+ * Problem link: https://zerojudge.tw/ShowProblem?problemid=e579
  * Status: AC
  */
 
@@ -10,22 +8,27 @@
 #include <stdio.h>
 
 int main(void) {
-    int testCases;
-    int simulationDays;
-    int numParties;
-    int hartalParameter;
-    bool hartals[3651];
+    int testCase;
 
-    scanf("%d", &testCases);
+    scanf("%d", &testCase);
 
-    while (testCases--) {
+    while (testCase--) {
+        int simulationDays;
+        int numParties;
+
         scanf("%d %d", &simulationDays, &numParties);
+
+        bool hartals[3651];
+
         for (int day = 1; day <= simulationDays; day++) {
             hartals[day] = false;
         }
 
         while (numParties--) {
+            int hartalParameter;
+
             scanf("%d", &hartalParameter);
+
             for (int day = hartalParameter; day <= simulationDays; day += hartalParameter) {
                 hartals[day] = true;
             }
