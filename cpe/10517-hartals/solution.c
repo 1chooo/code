@@ -10,22 +10,27 @@
 #include <stdio.h>
 
 int main(void) {
-    int testCases;
-    int simulationDays;
-    int numParties;
-    int hartalParameter;
-    bool hartals[3651];
+    int testCase;
 
-    scanf("%d", &testCases);
+    scanf("%d", &testCase);
 
-    while (testCases--) {
+    while (testCase--) {
+        int simulationDays;
+        int numParties;
+
         scanf("%d %d", &simulationDays, &numParties);
+
+        bool hartals[3651];
+
         for (int day = 1; day <= simulationDays; day++) {
             hartals[day] = false;
         }
 
         while (numParties--) {
+            int hartalParameter;
+
             scanf("%d", &hartalParameter);
+
             for (int day = hartalParameter; day <= simulationDays; day += hartalParameter) {
                 hartals[day] = true;
             }
