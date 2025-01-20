@@ -1,0 +1,17 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Check if Every Row and Column Contains All Numbers",
+            "titleSlug": "check-if-every-row-and-column-contains-all-numbers",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Difference Between Ones and Zeros in Row and Column",
+            "titleSlug": "difference-between-ones-and-zeros-in-row-and-column",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        }
+    ]
+}
