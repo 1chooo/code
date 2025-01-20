@@ -12,9 +12,6 @@
 
 int main(void) {
     int cases;
-    int month;
-    int day;
-
     const char *weekday[7] = {
         "Monday", "Tuesday", "Wednesday",
         "Thursday", "Friday", "Saturday",
@@ -28,12 +25,13 @@ int main(void) {
     scanf("%d", &cases);
 
     while (cases--) {
+        int month;
+        int day;
         scanf("%d %d", &month, &day);
 
         int dayCount = 4;
-        int i;
 
-        for (i = 0; i < month - 1; i++)
+        for (int i = 0; i < month - 1; i++)
             dayCount += daysOfNonLeapYear[i];
 
         dayCount = (dayCount + day) % 7;

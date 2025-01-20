@@ -14,10 +14,7 @@
 using namespace std;
 
 int main(void) {
-
     int cases;
-    int month;
-    int day;
     const string weekday[7] = {
         "Monday", "Tuesday", "Wednesday",
         "Thursday", "Friday", "Saturday",
@@ -31,6 +28,8 @@ int main(void) {
     cin >> cases;
 
     while (cases--) {
+        int month;
+        int day;
         cin >> month >> day;
 
         int dayCount = 4;
@@ -49,18 +48,19 @@ int main(void) {
 
 using namespace std;
 
-int main() {
+int main(void) {
     const int days[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
     const string day[] = {"Friday", "Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"};
     int n;
-    int m;
-    int d;
-    int s;
 
     while (cin >> n) {
         for (int cs = 0; cs < n; cs++) {
-            int s = 0;
+            int m;
+            int d;
+
             cin >> m >> d;
+
+            int s = 0;
             for (int i = 1; i < m; i++)
                 s += days[i];
             s += d;
@@ -76,23 +76,21 @@ int main() {
 
 using namespace std;
 
-int main() {
+int main(void) {
     int n;
-    int month;
-    int day;
-    int weekDay;
-
     const string week[7] = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
     const int mondays[12] = {10, 21, 0, 4, 9, 6, 11, 8, 5, 10, 7, 12};
 
     cin >> n;
 
     for (int i = 0; i < n; i++) {
+        int month;
+        int day;
         cin >> month >> day;
 
         month--; // to fit the index of array
 
-        weekDay = (day - mondays[month] + 35) % 7;
+        int weekDay = (day - mondays[month] + 35) % 7;
 
         cout << week[weekDay] << endl;
     }
@@ -103,7 +101,7 @@ int main() {
 
 using namespace std;
 
-int main() {
+int main(void) {
     const string day[7] = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
     const int daysOfMonth[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 30};
     int n = 0;
@@ -111,8 +109,11 @@ int main() {
     cin >> n;
 
     while (n--) {
-        int m = 0, d = 0;
+        int m = 0;
+        int d = 0;
+
         cin >> m >> d;
+
         int res_day = 4;
         for (int i = 1; i < m; i++) {
             res_day += daysOfMonth[i - 1];
