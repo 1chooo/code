@@ -14,19 +14,19 @@
 using namespace std;
 
 int main(void) {
-    int cases;
-    int day;
-    int num;
-    int interval;
-    vector<int> hartals;
+    int testCase;
 
-    cin >> cases;
+    cin >> testCase;
 
-    while (cases--) {
+    while (testCase--) {
+        int day;
+        int num;
         cin >> day >> num;
+        vector<int> hartals;
         hartals.assign(day + 1, false);
 
         while (num--) {
+            int interval;
             cin >> interval;
             for (int i = interval; i <= day; i += interval)
                 hartals[i] = true;
@@ -64,18 +64,18 @@ using namespace std;
 
 int main(void) {
     int testCases;
-    int simulationDays;
-    int numParties;
-    int hartalParameter;
-    vector<bool> hartals;
 
     cin >> testCases;
 
     while (testCases--) {
+        int simulationDays;
+        int numParties;
         cin >> simulationDays >> numParties;
+        vector<bool> hartals;
         hartals.assign(simulationDays + 1, false);
 
         while (numParties--) {
+            int hartalParameter;
             cin >> hartalParameter;
             for (int day = hartalParameter; day <= simulationDays; day += hartalParameter)
                 hartals[day] = true;
