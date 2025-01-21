@@ -11,18 +11,23 @@
 using namespace std;
 
 int main() {
-    int caseNum, a, b, time = 0;
-    int sum;
+    int testCase;
+    int time = 0;
 
-    cin >> caseNum;
+    cin >> testCase;
 
-    while (caseNum--) {
+    while (testCase--) {
+        int a, b;
+
         cin >> a >> b;
+        
         time++;
-        sum = 0;
-        for (a; a <= b; a++)
-            if (a % 2 == 1)
-                sum += a;
+
+        int sum = 0;
+
+        for (int i = a; i <= b; i++)
+            if (i % 2 == 1)
+            sum += i;
         printf("Case %d: %d\n", time, sum);
     }
 
