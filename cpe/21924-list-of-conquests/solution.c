@@ -19,21 +19,19 @@ typedef struct {
 
 int main(void) {
     int lines = 0;
-    int i = 0;
-    char country[MAX_LEN];
-    char tmp[MAX_LEN];
 
     Country countries[MAX_LEN];
 
     scanf("%d", &lines);
     getchar();
 
-    for (i = 0; i < lines; i++) {
+    for (int i = 0; i < lines; i++) {
+        char country[MAX_LEN];
         scanf("%s", country);
         getchar();
 
-        int j, found = 0;
-        for (j = 0; j < i; j++) {
+        int found = 0;
+        for (int j = 0; j < i; j++) {
             if (strcmp(countries[j].name, country) == 0) {
                 countries[j].count++;
                 found = 1;
@@ -47,10 +45,12 @@ int main(void) {
             countries[i].count = 1;
         }
 
+        char tmp[MAX_LEN];
+
         fgets(tmp, MAX_LEN, stdin);
     }
 
-    for (i = 0; i < lines; i++) {
+    for (int i = 0; i < lines; i++) {
         printf("%s %d\n", countries[i].name, countries[i].count);
         free(countries[i].name);
     }
