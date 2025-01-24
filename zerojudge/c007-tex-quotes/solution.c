@@ -1,8 +1,6 @@
 /*
- * Author: @1chooo
- * Title: 272 - TEX Quotes
- * Required: frequency limit: 3.000 seconds
- * Link: https://zerojudge.tw/ShowProblem?problemid=c007
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://zerojudge.tw/ShowProblem?problemid=c007
  * Status: AC
  */
 
@@ -11,11 +9,10 @@
 
 int main(void) {
     char sentence[1000];
-    int length;
     int count = 0;
 
     while (fgets(sentence, sizeof(sentence), stdin)) {
-        length = strlen(sentence);
+        int length = strlen(sentence);
 
         for (int i = 0; i < length; i++) {
             if (sentence[i] == '\"') {
@@ -30,6 +27,6 @@ int main(void) {
             }
         }
     }
-    
+
     return 0;
 }
