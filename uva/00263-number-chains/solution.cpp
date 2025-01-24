@@ -1,8 +1,7 @@
-/**
- * uva263
+/*
  * Author: 1chooo<hugo970217@gmail.com>
- * Problem: https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=199
- * Runtime:
+ * Problem link: https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=199
+ * Status: AC
  */
 
 #include <algorithm>
@@ -13,37 +12,51 @@
 
 using namespace std;
 
-bool cmp(char a, char b) {
+bool compareDescending(char a, char b) {
     return a > b;
 }
 
-int main() {
-    int n;
-    set<long long> same;
-    string s, s1;
-    while (getline(cin, s) && s != "0") {
-        same.clear();
-        stringstream sti(s);
-        long long int o1 = 0, a1 = 0, b1 = 0;
-        sti >> o1;
-        cout << "Original number was " << o1 << endl;
-        while (1) {
-            sort(s.begin(), s.end(), cmp);
-            stringstream sti1(s);
-            sti1 >> a1;
-            sort(s.begin(), s.end());
-            stringstream sti2(s);
-            sti2 >> b1;
-            cout << a1 << " - " << b1 << " = " << a1 - b1 << endl;
-            if (same.find(a1 - b1) != same.end()) {
+int main(void) {
+    string input;
+
+    while (getline(cin, input) && input != "0") {
+        set<long long> visitedNumbers = {0};
+        stringstream inputStream(input);
+        long long originalNumber = 0, descendingNumber = 0, ascendingNumber = 0;
+        inputStream >> originalNumber;
+
+        cout << "Original number was " << originalNumber << endl;
+        
+        while (true) {
+            // Sort digits in descending order
+            sort(input.begin(), input.end(), compareDescending);
+            stringstream descendingStream(input);
+            descendingStream >> descendingNumber;
+
+            // Sort digits in ascending order
+            sort(input.begin(), input.end());
+            stringstream ascendingStream(input);
+            ascendingStream >> ascendingNumber;
+
+            long long difference = descendingNumber - ascendingNumber;
+            cout << descendingNumber << " - " << ascendingNumber << " = " << difference << endl;
+
+            // Check if this difference has already been seen
+            if (visitedNumbers.find(difference) != visitedNumbers.end()) {
                 break;
             }
-            same.insert(a1 - b1);
-            stringstream its;
-            its << a1 - b1;
-            its >> s;
+
+            // Add the difference to the set of visited numbers
+            visitedNumbers.insert(difference);
+
+            // Convert the difference back to a string for the next iteration
+            stringstream differenceStream;
+            differenceStream << difference;
+            differenceStream >> input;
         }
-        cout << "Chain length " << same.size() + 1 << endl
-             << endl;
+
+        printf("Chain length %d\n\n", visitedNumbers.size() + 1);
     }
+
+    return 0;
 }
