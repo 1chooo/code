@@ -1,8 +1,6 @@
 /*
- * Author: @1chooo
- * Title: 10035 - Primary Arithmetic
- * Required: Time limit: 3.000 seconds
- * Link: https://zerojudge.tw/ShowProblem?problemid=c014
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://zerojudge.tw/ShowProblem?problemid=c014
  * Status: AC
  */
 
@@ -12,21 +10,18 @@
 using namespace std;
 
 int main() {
-
-    unsigned long long int num1, num2;
-    int carry;
-    int carryCount;
+    unsigned long long int num1;
+    unsigned long long int num2;
 
     while (cin >> num1 >> num2) {
 
         if (num1 == 0 && num2 == 0)
             break;
 
-        carry = 0;
-        carryCount = 0;
+        int carry = 0;
+        int carryCount = 0;
 
         while (num1 > 0 || num2 > 0) {
-
             if ((num1 % 10 + num2 % 10 + carry) >= 10) {
                 carry = 1;
                 carryCount++;
@@ -44,5 +39,6 @@ int main() {
         else
             cout << "1 carry operation." << endl;
     }
+
     return 0;
 }
