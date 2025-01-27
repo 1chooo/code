@@ -1,8 +1,6 @@
 /*
- * Author: @1chooo
- * Title: 490 - Rotating Sentences
- * Required: frequency limit: 3.000 seconds
- * Link: https://zerojudge.tw/ShowProblem?problemid=c045
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://zerojudge.tw/ShowProblem?problemid=c045
  * Status: AC
  */
 
@@ -34,5 +32,6 @@ int main(void) {
         }
         cout << endl;
     }
+
     return 0;
 }
