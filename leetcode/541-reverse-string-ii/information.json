@@ -1,0 +1,23 @@
+{
+    "difficulty": "easy",
+    "similarQuestions": [
+        {
+            "title": "Reverse String",
+            "titleSlug": "reverse-string",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Reverse Words in a String III",
+            "titleSlug": "reverse-words-in-a-string-iii",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Faulty Keyboard",
+            "titleSlug": "faulty-keyboard",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        }
+    ]
+}
