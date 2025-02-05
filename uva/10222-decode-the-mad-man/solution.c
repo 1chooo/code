@@ -1,8 +1,6 @@
 /*
- * Author: @1chooo
- * Title: 10222 - Decode the Mad man
- * Required: frequency limit: 3.000 seconds
- * Link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=14&page=show_problem&problem=1163
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=14&page=show_problem&problem=1163
  * Status: AC
  */
 
@@ -11,7 +9,7 @@
 
 int main(void) {
     char message[1001];
-    char table[] = "`1234567890-=qwertyuiop[]\\asdfghjkl;'zxcvbnm,./";
+    const char table[] = "`1234567890-=qwertyuiop[]\\asdfghjkl;'zxcvbnm,./";
 
     fgets(message, sizeof(message), stdin);
     message[strcspn(message, "\n")] = '\0'; // Remove trailing newline if present

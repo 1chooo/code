@@ -1,20 +1,31 @@
-# Decode the Mad man
+# Decode the Mad Man
 
 (CPE10425, UVA10222)
 
-## Descriptions
+## Description
 
-Once in BUET, an old professor had gone completely mad. He started talking with some peculiar words. Nobody could realize his speech and lectures. Finally the BUET authority fall in great trouble. There was no way left to keep that man working in university. Suddenly a student (definitely he was a registered author at UVA ACM Chapter and hold a good rank on 24 hour-Online Judge) created a program that was able to decode that professor’s speech. After his invention, everyone got comfort again and that old teacher started his everyday works as before.  
-So, if you ever visit BUET and see a teacher talking with a microphone, which is connected to a IBM computer equipped with a voice recognition software and students are taking their lecture from the computer screen, don’t get thundered! Because now your job is to write the same program which can decode that mad teacher’s speech!
+Once at BUET, an old professor went completely mad. He started speaking in peculiar words that nobody could understand. This caused great trouble for the BUET authority, and they had no choice but to consider removing him from the university. Suddenly, a student (who was a registered author at the UVA ACM Chapter and held a good rank on the 24-hour Online Judge) created a program that could decode the professor’s speech. After this invention, everyone was relieved, and the old professor resumed his regular duties.  
+So, if you ever visit BUET and see a teacher talking into a microphone connected to an IBM computer equipped with voice recognition software, and students taking notes from the computer screen, don’t be surprised! Your task is to write a similar program that can decode the mad professor’s speech.
+
 ### Input
-The input file will contain only one test case i.e. the encoded message.  
-The test case consists of one or more words.
+
+The input file will contain only one test case, which is the encoded message. The test case consists of one or more words.
+
 ### Output
-For the given test case, print a line containing the decoded words. However, it is not so hard task to replace each letter or punctuation symbol by the two immediately to its left alphabet on your standard keyboard.
+
+For the given test case, print a line containing the decoded words. It is not a difficult task to replace each letter or punctuation symbol with the two immediately to its left on a standard keyboard.
+
 ### Sample Input
+
+```
 k[r dyt I[o
+```
+
 ### Sample Output
+
+```
 how are you
+```
 
 ## Notes
 
