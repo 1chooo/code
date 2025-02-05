@@ -2,7 +2,7 @@
  * Author: @1chooo
  * Title: 10038 - Jolly Jumpers
  * Required: frequency limit: 3.000 seconds
- * Link: https://zerojudge.tw/ShowProblem?problemid=d097
+ * Link: https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=979
  * Status: AC
  */
 
@@ -15,13 +15,12 @@
 using namespace std;
 
 int main(void) {
-
     int n;
-    bool jolly;
-    int sequence[3001];
-    vector<int> check;
 
     while (cin >> n) {
+        int sequence[3001];
+        vector<int> check;
+
         for (int i = 0; i < n; i++)
             cin >> sequence[i];
 
@@ -32,7 +31,7 @@ int main(void) {
 
         sort(check.begin(), check.end());
 
-        jolly = true;
+        bool jolly = true;
 
         for (int i = 0; i < n - 1; i++) {
             if (check[i] != i + 1) {
