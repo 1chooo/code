@@ -1,7 +1,8 @@
 /*
- Problem link: https://zerojudge.tw/ShowProblem?problemid=d065
- Status: AC
-*/
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://zerojudge.tw/ShowProblem?problemid=d065
+ * Status: AC
+ */
 
 #include <cstdlib>
 #include <iostream>
@@ -9,7 +10,9 @@
 using namespace std;
 
 int main(void) {
-    long int a = 0, b = 0, c = 0;
+    long int a = 0;
+    long int b = 0;
+    long int c = 0;
 
     cin >> a >> b >> c;
 
