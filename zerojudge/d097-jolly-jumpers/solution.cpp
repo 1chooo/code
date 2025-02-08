@@ -1,8 +1,6 @@
 /*
- * Author: @1chooo
- * Title: 10038 - Jolly Jumpers
- * Required: frequency limit: 3.000 seconds
- * Link: https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=979
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://zerojudge.tw/ShowProblem?problemid=d097
  * Status: AC
  */
 
@@ -19,13 +17,11 @@ int main(void) {
 
     while (cin >> n) {
         int sequence[3001];
-        vector<int> check;
-
         for (int i = 0; i < n; i++)
             cin >> sequence[i];
 
+        vector<int> check;
         check.resize(n - 1);
-
         for (int i = 0; i < n - 1; i++)
             check[i] = abs(sequence[i] - sequence[i + 1]);
 
