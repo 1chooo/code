@@ -1,10 +1,11 @@
 /*
- Problem link: https://zerojudge.tw/ShowProblem?problemid=d673
- Status: AC
-*/
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://zerojudge.tw/ShowProblem?problemid=d673
+ * Status: AC
+ */
 
-#include <iostream>
 #include <cstdlib>
+#include <iostream>
 
 using namespace std;
 
@@ -13,7 +14,8 @@ int main(void) {
     int num = 1;
 
     while (cin >> lastNum && lastNum != -1) {
-        int presentNum[12], needNum[12];
+        int presentNum[12];
+        int needNum[12];
 
         for (int i = 0; i < 12; i++) {
             cin >> presentNum[i];
@@ -22,7 +24,7 @@ int main(void) {
         for (int i = 0; i < 12; i++) {
             cin >> needNum[i];
         }
-        
+
         printf("Case %d:\n", num);
 
         for (int i = 0; i < 12; i++) {
