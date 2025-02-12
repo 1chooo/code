@@ -1,7 +1,8 @@
 /*
- Problem link: https://zerojudge.tw/ShowProblem?problemid=e346
- Status: AC
-*/
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://zerojudge.tw/ShowProblem?problemid=e346
+ * Status: AC
+ */
 
 #include <iostream>
 
@@ -11,8 +12,10 @@ int main(void) {
     ios_base::sync_with_stdio(0);
     cin.tie(NULL);
 
-    long long int arr[200001] = {}, ans = 0;
-    int n = 0, q = 0;
+    long long int arr[200001] = {};
+    long long int ans = 0;
+    int n = 0;
+    int q = 0;
     arr[0] = 0;
 
     cin >> n;
