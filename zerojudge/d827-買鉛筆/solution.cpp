@@ -1,7 +1,8 @@
 /*
- Problem link: https://zerojudge.tw/ShowProblem?problemid=d827
- Status: AC
-*/
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://zerojudge.tw/ShowProblem?problemid=d827
+ * Status: AC
+ */
 
 #include <cstdlib>
 #include <iostream>
@@ -9,7 +10,8 @@
 using namespace std;
 
 int main(void) {
-    int n = 0, ans = 0;
+    int n = 0;
+    int ans = 0;
 
     cin >> n;
 
