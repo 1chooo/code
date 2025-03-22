@@ -1,49 +1,54 @@
 /*
- * Author: @1chooo
- * Title: 10130 - SuperSale
- * Required: Time limit: 3.000 seconds
- * Link:
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1071
  * Status: AC
  */
 
 #include <cstdio>
-#include <iostream>
 #include <cstring>
+#include <iostream>
 
 using namespace std;
 
-int main() {
-	int testCases, numItems, numPeople, maxWeight, totalValue;
-	int i, j;
-	int prices[1005], weights[1005], dp[35];
+int main(void) {
+    int testCases;
 
-	scanf("%d", &testCases);
+    scanf("%d", &testCases);
 
-	while (testCases--) {
-		scanf("%d", &numItems);
-		for (i = 0; i < numItems; i++) {
-			scanf("%d%d", &prices[i], &weights[i]);
-		}
+    while (testCases--) {
+        int numItems;
+        scanf("%d", &numItems);
 
-		memset(dp, 0, sizeof(dp));
+        int weights[1005];
+        int prices[1005];
 
-		for (i = 0; i < numItems; i++) {
-			for (j = 30; j >= weights[i]; j--) {
-				if (dp[j - weights[i]] + prices[i] > dp[j]) {
-					dp[j] = dp[j - weights[i]] + prices[i];
-				}
-			}
-		}
+        for (int i = 0; i < numItems; i++) {
+            scanf("%d%d", &prices[i], &weights[i]);
+        }
 
-		totalValue = 0;
-		scanf("%d", &numPeople);
-		for (i = 0; i < numPeople; i++) {
-			scanf("%d", &maxWeight);
-			totalValue += dp[maxWeight];
-		}
+        int dp[35];
+        memset(dp, 0, sizeof(dp));
 
-		printf("%d\n", totalValue);
-	}
+        for (int i = 0; i < numItems; i++) {
+            for (int j = 30; j >= weights[i]; j--) {
+                if (dp[j - weights[i]] + prices[i] > dp[j]) {
+                    dp[j] = dp[j - weights[i]] + prices[i];
+                }
+            }
+        }
 
-	return 0;
+        int maxWeight;
+        int numPeople;
+        scanf("%d", &numPeople);
+
+        int totalValue = 0;
+        for (int i = 0; i < numPeople; i++) {
+            scanf("%d", &maxWeight);
+            totalValue += dp[maxWeight];
+        }
+
+        printf("%d\n", totalValue);
+    }
+
+    return 0;
 }
