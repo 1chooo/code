@@ -1,8 +1,6 @@
 /*
- * Author: @1chooo
- * Title: 10170 - The Hotel with Infinite Rooms
- * Required: Time limit: 3.000 seconds
- * Link:
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1111
  * Status: AC
  */
 
@@ -10,15 +8,16 @@
 
 using namespace std;
 
-int main() {
-    long long int S, D;
+int main(void) {
+    long long int s;
+    long long int d;
     long long int area;
-    
-    while (cin >> S >> D) {
+
+    while (cin >> s >> d) {
         for (int i = 0;; i++) {
-            area = (S + (S + i)) * (i + 1) / 2;
-            if (area >= D) {
-                cout << S + i << endl;
+            area = (s + (s + i)) * (i + 1) / 2;
+            if (area >= d) {
+                cout << s + i << endl;
                 break;
             }
         }
@@ -28,10 +27,8 @@ int main() {
 }
 
 /*
- * Author: @1chooo
- * Title: 10170 - The Hotel with Infinite Rooms
- * Required: Time limit: 3.000 seconds
- * Link:
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1111
  * Status: AC
  */
 
@@ -40,7 +37,8 @@ int main() {
 using namespace std;
 
 int main() {
-    long long int s, d;
+    long long int s;
+    long long int d;
     long long int b;
 
     while (cin >> s >> d) {
