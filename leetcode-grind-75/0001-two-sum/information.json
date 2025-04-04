@@ -1,0 +1,131 @@
+{
+    "difficulty": "easy",
+    "similarQuestions": [
+        {
+            "title": "3Sum",
+            "titleSlug": "3sum",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "4Sum",
+            "titleSlug": "4sum",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Two Sum II - Input Array Is Sorted",
+            "titleSlug": "two-sum-ii-input-array-is-sorted",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Two Sum III - Data structure design",
+            "titleSlug": "two-sum-iii-data-structure-design",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Subarray Sum Equals K",
+            "titleSlug": "subarray-sum-equals-k",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Two Sum IV - Input is a BST",
+            "titleSlug": "two-sum-iv-input-is-a-bst",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Two Sum Less Than K",
+            "titleSlug": "two-sum-less-than-k",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Max Number of K-Sum Pairs",
+            "titleSlug": "max-number-of-k-sum-pairs",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Count Good Meals",
+            "titleSlug": "count-good-meals",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Count Number of Pairs With Absolute Difference K",
+            "titleSlug": "count-number-of-pairs-with-absolute-difference-k",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Number of Pairs of Strings With Concatenation Equal to Target",
+            "titleSlug": "number-of-pairs-of-strings-with-concatenation-equal-to-target",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Find All K-Distant Indices in an Array",
+            "titleSlug": "find-all-k-distant-indices-in-an-array",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "First Letter to Appear Twice",
+            "titleSlug": "first-letter-to-appear-twice",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Number of Excellent Pairs",
+            "titleSlug": "number-of-excellent-pairs",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Number of Arithmetic Triplets",
+            "titleSlug": "number-of-arithmetic-triplets",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Node With Highest Edge Score",
+            "titleSlug": "node-with-highest-edge-score",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Check Distances Between Same Letters",
+            "titleSlug": "check-distances-between-same-letters",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Find Subarrays With Equal Sum",
+            "titleSlug": "find-subarrays-with-equal-sum",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Largest Positive Integer That Exists With Its Negative",
+            "titleSlug": "largest-positive-integer-that-exists-with-its-negative",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Number of Distinct Averages",
+            "titleSlug": "number-of-distinct-averages",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Count Pairs Whose Sum is Less than Target",
+            "titleSlug": "count-pairs-whose-sum-is-less-than-target",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        }
+    ]
+}
