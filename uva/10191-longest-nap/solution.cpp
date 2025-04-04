@@ -1,8 +1,6 @@
 /*
- * Author: @1chooo
- * Title: 10191 Longest Nap
- * Required: Time limit: 3.000 seconds
- * Link:
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=32&page=show_problem&problem=1132
  * Status: AC
  */
 
@@ -12,7 +10,7 @@
 
 int cmp(const void *a, const void *b);
 
-int main() {
+int main(void) {
     int testCase = 0;
     int n;
 
