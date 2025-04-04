@@ -1,8 +1,6 @@
 /*
- * Author: @1chooo
- * Title: 10191 Longest Nap
- * Required: Time limit: 3.000 seconds
- * Link:
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1134
  * Status: AC
  */
 
@@ -15,7 +13,7 @@ int gcd(int a, int b);
 
 int int_str(const string &s);
 
-int main() {
+int main(void) {
     int n;
     cin >> n;
 
