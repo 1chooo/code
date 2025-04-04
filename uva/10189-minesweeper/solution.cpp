@@ -1,8 +1,6 @@
 /*
- * Author: @1chooo
- * Title: 10189 - Minesweeper
- * Required: Time limit: 3.000 seconds
- * Link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1130
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1130
  * Status: AC
  */
 
@@ -15,7 +13,9 @@
 using namespace std;
 
 int main(void) {
-    int n, m, field_num = 0;
+    int n;
+    int m;
+    int fieldNum = 0;
     char square;
 
     while (cin >> n >> m) {
@@ -24,8 +24,9 @@ int main(void) {
 
         getchar();
 
-        if (field_num)
+        if (fieldNum)
             cout << endl;
+
         int field[MAX_N + 5][MAX_M + 5] = {0};
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= m; j++) {
@@ -40,7 +41,7 @@ int main(void) {
             getchar();
         }
 
-        cout << "Field #" << ++field_num << ":" << endl;
+        cout << "Field #" << ++fieldNum << ":" << endl;
 
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= m; j++)
