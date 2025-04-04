@@ -1,8 +1,6 @@
 /*
- * Author: @1chooo
- * Title: 10190 Divide, But Not Quite Conquer!
- * Required: Time limit: 3.000 seconds
- * Link: https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1131
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1131
  * Status: AC
  */
 
