@@ -1,0 +1,71 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Longest Substring with At Most Two Distinct Characters",
+            "titleSlug": "longest-substring-with-at-most-two-distinct-characters",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Longest Substring with At Most K Distinct Characters",
+            "titleSlug": "longest-substring-with-at-most-k-distinct-characters",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Subarrays with K Different Integers",
+            "titleSlug": "subarrays-with-k-different-integers",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Maximum Erasure Value",
+            "titleSlug": "maximum-erasure-value",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Number of Equal Count Substrings",
+            "titleSlug": "number-of-equal-count-substrings",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Minimum Consecutive Cards to Pick Up",
+            "titleSlug": "minimum-consecutive-cards-to-pick-up",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Longest Nice Subarray",
+            "titleSlug": "longest-nice-subarray",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Optimal Partition of String",
+            "titleSlug": "optimal-partition-of-string",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Count Complete Subarrays in an Array",
+            "titleSlug": "count-complete-subarrays-in-an-array",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Find Longest Special Substring That Occurs Thrice II",
+            "titleSlug": "find-longest-special-substring-that-occurs-thrice-ii",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Find Longest Special Substring That Occurs Thrice I",
+            "titleSlug": "find-longest-special-substring-that-occurs-thrice-i",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        }
+    ]
+}
