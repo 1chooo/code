@@ -1,0 +1,17 @@
+{
+    "difficulty": "easy",
+    "similarQuestions": [
+        {
+            "title": "Reverse Vowels of a String",
+            "titleSlug": "reverse-vowels-of-a-string",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Reverse String II",
+            "titleSlug": "reverse-string-ii",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        }
+    ]
+}
