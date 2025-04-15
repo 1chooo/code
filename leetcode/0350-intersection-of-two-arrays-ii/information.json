@@ -1,0 +1,41 @@
+{
+    "difficulty": "easy",
+    "similarQuestions": [
+        {
+            "title": "Intersection of Two Arrays",
+            "titleSlug": "intersection-of-two-arrays",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Find Common Characters",
+            "titleSlug": "find-common-characters",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Find the Difference of Two Arrays",
+            "titleSlug": "find-the-difference-of-two-arrays",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Choose Numbers From Two Arrays in Range",
+            "titleSlug": "choose-numbers-from-two-arrays-in-range",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Intersection of Multiple Arrays",
+            "titleSlug": "intersection-of-multiple-arrays",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Minimum Common Value",
+            "titleSlug": "minimum-common-value",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        }
+    ]
+}
