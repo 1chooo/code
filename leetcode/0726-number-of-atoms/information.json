@@ -1,0 +1,23 @@
+{
+    "difficulty": "hard",
+    "similarQuestions": [
+        {
+            "title": "Decode String",
+            "titleSlug": "decode-string",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Encode String with Shortest Length",
+            "titleSlug": "encode-string-with-shortest-length",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Parse Lisp Expression",
+            "titleSlug": "parse-lisp-expression",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        }
+    ]
+}
