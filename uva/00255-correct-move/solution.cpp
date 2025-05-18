@@ -1,19 +1,20 @@
-/**
- * uva255
+/*
  * Author: 1chooo<hugo970217@gmail.com>
- * Problem: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=191
- * Runtime: 3ms (89.08%)
+ * Problem link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=191
+ * Status: AC
  */
 
-#include <iostream>
 #include <cstdio>
 #include <cstdlib>
+#include <iostream>
 
 using namespace std;
 
-int main() {
+int main(void) {
 
-    int k, q, m;
+    int k;
+    int q;
+    int m;
 
     while (scanf("%d %d %d", &k, &q, &m) != EOF) {
 
@@ -25,7 +26,10 @@ int main() {
             else {
                 if (q == m)
                     printf("Illegal move\n");
-                else if ((k == 0 && m == 9) || (k == 7 && m == 14) || (k == 56 && m == 49) || (k == 63 && m == 54))
+                else if ((k == 0 && m == 9) ||
+                         (k == 7 && m == 14) ||
+                         (k == 56 && m == 49) ||
+                         (k == 63 && m == 54))
                     printf("Stop\n");
                 else if (q / 8 == m / 8 && k / 8 == m / 8) {
                     if ((k - m) * (k - q) <= 0)
@@ -42,9 +46,11 @@ int main() {
                     else
                         printf("Continue\n");
                 } else {
-                    if (((m - 1) / 8 == m / 8 && m - 1 == k) || ((m + 1) / 8 == m / 8 && m + 1 == k))
+                    if (((m - 1) / 8 == m / 8 && m - 1 == k) ||
+                        ((m + 1) / 8 == m / 8 && m + 1 == k))
                         printf("Move not allowed\n");
-                    else if (((m - 8) >= 0 && k == m - 8) || ((m + 8) < 64 && k == m + 8))
+                    else if (((m - 8) >= 0 && k == m - 8) ||
+                             ((m + 8) < 64 && k == m + 8))
                         printf("Move not allowed\n");
                     else
                         printf("Continue\n");
@@ -52,5 +58,6 @@ int main() {
             }
         }
     }
+
     return 0;
 }
