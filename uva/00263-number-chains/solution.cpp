@@ -12,9 +12,7 @@
 
 using namespace std;
 
-bool compareDescending(char a, char b) {
-    return a > b;
-}
+bool compareDescending(char a, char b);
 
 int main(void) {
     string input;
@@ -59,4 +57,8 @@ int main(void) {
     }
 
     return 0;
+}
+
+bool compareDescending(char a, char b) {
+    return a > b;
 }
