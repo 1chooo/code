@@ -1,8 +1,6 @@
 /*
- * Author: @1chooo
- * Title: 272 - TEX Quotes
- * Required: frequency limit: 3.000 seconds
- * Link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=4&page=show_problem&problem=208
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=4&page=show_problem&problem=208
  * Status: AC
  */
 
@@ -40,34 +38,36 @@ int main(void) {
     return 0;
 }
 
-// https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=208
+/*
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=4&page=show_problem&problem=208
+ * Status: AC
+ */
 
 #include <iostream>
 
 using namespace std;
 
-int main() {
+int main(void) {
     char s;
-    int n = 0;         // n 為計算 " 出現的次數
-    while (cin.get(s)) // while 輸入 s
-    {
-        if (s == '\"') // 當 " 初現在輸入中,則進入 if 判斷
-        {
-            n++;            // n 的次數加 1
-            if (n % 2 == 1) // 當 n 的次數為基數,則輸出 ``
+    int n = 0;
+    while (cin.get(s)) {
+        if (s == '\"') {
+            n++;
+            if (n % 2 == 1)
                 cout << "``";
-            else // 當 n 的次數為偶數,則輸出 ''
+            else
                 cout << "''";
-        } else // 若 " 符號不輸入中,則照原本輸出
+        } else
             cout << s;
     }
+
+    return 0;
 }
 
 /*
- * Author: @1chooo
- * Title: 272 - TEX Quotes
- * Required: frequency limit: 3.000 seconds
- * Link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=4&page=show_problem&problem=208
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=4&page=show_problem&problem=208
  * Status: AC
  */
 
@@ -102,5 +102,6 @@ int main(void) {
         }
         cout << endl;
     }
+
     return 0;
 }

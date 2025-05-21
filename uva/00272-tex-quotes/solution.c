@@ -1,3 +1,9 @@
+/*
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=4&page=show_problem&problem=208
+ * Status: AC
+ */
+
 #include <stdio.h>
 #include <string.h>
 
@@ -22,6 +28,6 @@ int main(void) {
             }
         }
     }
-    
+
     return 0;
 }
