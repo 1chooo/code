@@ -1,27 +1,33 @@
 /*
  * Author: 1chooo<hugo970217@gmail.com>
- * Title: 544 - Heavy Cargo
- * Required: frequency limit: 3.000 seconds
- * uva544
+ * Problem link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=485
  * Status: AC
  */
 
-#include <iostream>
-#include <cstdlib>
 #include <cstdio>
-#include <string>
+#include <cstdlib>
+#include <iostream>
 #include <map>
+#include <string>
 
 using namespace std;
 
 bool check[19900][200];
 
-int main() {
-    int n, r, num = 0;
-    int k1, k2;
-    int street[200][200], re[200][200], len[200];
-    int route[19900][3], temp[19900][3], y;
+int main(void) {
+    int n;
+    int r;
+    int num = 0;
+    int k1;
+    int k2;
+    int street[200][200];
+    int re[200][200];
+    int len[200];
+    int route[19900][3];
+    int temp[19900][3];
+    int y;
     int city_ton[200];
+
     string s, s1;
 
     for (int ss = 1; scanf("%d%d", &n, &r) && (n || r); ss++, num = 0) {
@@ -70,5 +76,6 @@ int main() {
         }
         printf("Scenario #%d\n%d tons\n\n", ss, street[k1][k2]);
     }
+
     return 0;
 }
