@@ -1,8 +1,6 @@
 /*
- * Author: @1chooo<hugo970217@gmail.com>
- * Title: 21924 - List of Conquests
- * Required: Time limit: 3.000 seconds
- * Link: https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&category=16&page=show_problem&problem=1361
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&category=16&page=show_problem&problem=1361
  * Status: AC
  */
 
@@ -27,7 +25,7 @@ int main(void) {
 
     for (int i = 0; i < lines; i++) {
         char country[MAX_LEN];
-        scanf("%s", country);
+        scanf("%99s", country);
         getchar();
 
         int found = 0;
