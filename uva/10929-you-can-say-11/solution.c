@@ -10,10 +10,9 @@
 int main(void) {
     char num[1001];
 
-    while (scanf("%s", num) == 1 && num[0] != '0') {
+    while (scanf("%1000s", num) == 1 && num[0] != '0') {
         int odd = 0;
         int even = 0;
-        int sum = 0;
         int len = strlen(num);
 
         for (int i = 0; i < len; i++) {
@@ -23,7 +22,7 @@ int main(void) {
                 even += num[i] - '0';
         }
 
-        sum = odd - even;
+        int sum = odd - even;
 
         if (sum % 11 == 0)
             printf("%s is a multiple of 11.\n", num);
