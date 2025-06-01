@@ -13,7 +13,7 @@ using namespace std;
 int main(void) {
     string city = "ABCDEFGHJKLMNPQRSTUVXYWZIO";
     string id;
-    int enNum, total;
+    int enNum = 0;
     int num = 8;
 
     cin >> id;
@@ -24,7 +24,7 @@ int main(void) {
         }
     }
 
-    total = (enNum / 10) + (9 * (enNum % 10));
+    int total = (enNum / 10) + (9 * (enNum % 10));
 
     int temp = (int)id[9] - 48;
     total += temp;
