@@ -1,8 +1,6 @@
 /*
- * Author: @1chooo<hugo970217@gmail.com>
- * Title: 1022 - Digital Library
- * Required: frequency limit: 3.000 seconds
- * Link: https://vjudge.net/problem/UVA-1022
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://vjudge.net/problem/UVA-1022
  * Status: AC
  */
 
@@ -13,34 +11,36 @@
 
 using namespace std;
 
-void printPath(map<string, string> &prev, string v) {
-    const string &u = prev[v];
-    if (u != v)
-        printPath(prev, u);
-    cout << v[0];
-}
+void printPath(const map<string, string> &prev, const string v);
 
-int main() {
-    int T;
-    cin >> T;
-    while (T--) {
-        int m, n;
+int main(void) {
+    int times;
+    cin >> times;
+    while (times--) {
+        int m;
+        int n;
         cin >> m >> n;
+
         map<string, vector<string>> adjList;
+
         for (int i = 0; i < m; ++i) {
-            string u, v;
+            string u;
+            string v;
             cin >> u >> v;
             adjList[u].push_back(v);
             adjList[v].push_back(u);
         }
+
         for (int i = 0; i < n; ++i) {
-            string s, t;
+            string s;
+            string t;
             cin >> s >> t;
-            // BFS
             queue<string> q;
             map<string, string> prev;
+
             prev[s] = s;
             q.push(s);
+
             while (!q.empty() && !prev.count(t)) {
                 string u = q.front();
                 q.pop();
@@ -53,10 +53,19 @@ int main() {
                 }
             }
             printPath(prev, t);
-            cout << endl;
+            printf("\n");
         }
-        if (T)
-            cout << endl;
+
+        if (times)
+            printf("\n");
     }
+
     return 0;
+}
+
+void printPath(map<string, string> &prev, const string v) {
+    const string &u = prev[v];
+    if (u != v)
+        printPath(prev, u);
+    cout << v[0];
 }
