@@ -26,12 +26,10 @@ int main(void) {
         cout << "Original number was " << originalNumber << endl;
         
         while (true) {
-            // Sort digits in descending order
             sort(input.begin(), input.end(), compareDescending);
             stringstream descendingStream(input);
             descendingStream >> descendingNumber;
 
-            // Sort digits in ascending order
             sort(input.begin(), input.end());
             stringstream ascendingStream(input);
             ascendingStream >> ascendingNumber;
@@ -39,21 +37,18 @@ int main(void) {
             long long difference = descendingNumber - ascendingNumber;
             cout << descendingNumber << " - " << ascendingNumber << " = " << difference << endl;
 
-            // Check if this difference has already been seen
             if (visitedNumbers.find(difference) != visitedNumbers.end()) {
                 break;
             }
 
-            // Add the difference to the set of visited numbers
             visitedNumbers.insert(difference);
 
-            // Convert the difference back to a string for the next iteration
             stringstream differenceStream;
             differenceStream << difference;
             differenceStream >> input;
         }
 
-        printf("Chain length %d\n\n", visitedNumbers.size() + 1);
+        printf("Chain length %d\n\n", static_cast<int>(visitedNumbers.size() + 1));
     }
 
     return 0;
