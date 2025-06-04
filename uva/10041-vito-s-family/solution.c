@@ -17,11 +17,11 @@
 
 void quick_sort(int number[], int left, int right);
 
-int main() {
-    int r;
-    int ans[r];
-
+int main(void) {
+    int r = 0;
     scanf("%d", &r);
+
+    int ans[r];
 
     for (int i = 0; i < r; i++) {
         int num_home;
