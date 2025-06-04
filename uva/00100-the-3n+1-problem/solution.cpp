@@ -10,7 +10,7 @@
 
 using namespace std;
 
-int main() {
+int main(void) {
     long long int i;
     long long int j;
 
@@ -43,9 +43,9 @@ int main() {
         }
 
         if (change == true)
-            printf("%lld %lld %lld\n", j, i, maxOperation);
+            printf("%lld %lld %d\n", j, i, maxOperation);
         else
-            printf("%lld %lld %lld\n", i, j, maxOperation);
+            printf("%lld %lld %d\n", i, j, maxOperation);
     }
 
     return 0;
