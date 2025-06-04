@@ -1,40 +1,32 @@
 /*
- * Author: @1chooo
- * Title: 10093 - An Easy Problem!
- * Required: frequency limit: 3.000 seconds
- * Link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1034
+ * Author: 1chooo<hugo970217@gmail.com>
+ * Problem link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1034
  * Status: AC
  */
 
-#include <algorithm>
-#include <cmath>
-#include <cstdlib>
 #include <iostream>
-#include <map>
-#include <set>
 #include <string>
-#include <vector>
 
 using namespace std;
 
 int main(void) {
 
-    string R;
-    int tmp, sum, max;
+    string lines;
 
-    while (getline(cin, R)) {
+    while (getline(cin, lines)) {
 
-        sum = 0;
-        max = 1;
-        int i;
+        int sum = 0;
+        int max = 1;
+        int i = 0;
+        int tmp = 0;
 
-        for (i = 0; i < R.size(); i++) {
-            if (R[i] >= '0' && R[i] <= '9')
-                tmp = R[i] - '0';
-            else if (R[i] >= 'A' && R[i] <= 'Z')
-                tmp = R[i] - 'A' + 10;
-            else if (R[i] >= 'a' && R[i] <= 'z')
-                tmp = R[i] - 'a' + (10 + 26);
+        for (i = 0; i < lines.size(); i++) {
+            if (lines[i] >= '0' && lines[i] <= '9')
+                tmp = lines[i] - '0';
+            else if (lines[i] >= 'A' && lines[i] <= 'Z')
+                tmp = lines[i] - 'A' + 10;
+            else if (lines[i] >= 'a' && lines[i] <= 'z')
+                tmp = lines[i] - 'a' + (10 + 26);
             else
                 continue;
 
