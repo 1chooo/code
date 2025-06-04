@@ -26,7 +26,7 @@ int main(void) {
 
 int find(int n, int m) {
     int in[100];
-    int last;
+    int last = 0;
     int c;
     int k;
 
