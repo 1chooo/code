@@ -17,8 +17,8 @@ int main(void) {
     while (scanf("%d", &n) != EOF) {
         char str[12000];
         int time[12000][2];
-        int m;
-        int h;
+        int m = 0;
+        int h = 0;
 
         time[0][0] = 0;
         time[0][1] = 10 * 60;
@@ -37,7 +37,7 @@ int main(void) {
         qsort(time, n, sizeof(time[0]), cmp);
 
         int ans = 0;
-        int maxTime;
+        int maxTime = 0;
 
         for (int i = 1; i <= n; ++i) {
             if (ans < time[i][0] - time[i - 1][1]) {
