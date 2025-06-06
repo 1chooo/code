@@ -8,11 +8,10 @@
 
 using namespace std;
 
-void factorization (int);
+void factorization(int);
 
-int main ()
-{
-    int number;
+int main(void) {
+    int number = 0;
     cin >> number;
 
     factorization(number);
@@ -20,17 +19,13 @@ int main ()
     return 0;
 }
 
-
-void factorization (int number)
-{
+void factorization(int number) {
     int divisor = 2;
 
-    while (number != 1)
-    {
+    while (number != 1) {
         int count = 0;
 
-        while (number % divisor == 0) 
-        {
+        while (number % divisor == 0) {
             if (count == 0) cout << divisor;
             number = number / divisor;
             count++;

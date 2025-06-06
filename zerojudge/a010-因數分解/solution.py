@@ -11,13 +11,13 @@ if __name__ == "__main__":
     n = 2
 
     primeFactor = []
-    while (True) :
-        if (n == temp or (inputNumber % n) == 0) :
+    while True:
+        if n == temp or (inputNumber % n) == 0:
             break
-        
-        if (inputNumber % n == 0) :
+
+        if inputNumber % n == 0:
             primeFactor.append(n)
-            inputNumber / n
+            inputNumber //= n
             print(primeFactor)
-        else :
+        else:
             n += 1
