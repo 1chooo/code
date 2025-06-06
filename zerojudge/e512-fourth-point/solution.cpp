@@ -4,13 +4,13 @@
  * Status: AC
  */
 
-#include <cstdio>
 #include <iostream>
 
 using namespace std;
 
-int main() {
-    double x[4], y[4];
+int main(void) {
+    double x[4] = {0.0};
+    double y[4] = {0.0};
 
     while (cin >> x[0] >> y[0]) {
         for (int i = 1; i < 4; i++) {
@@ -19,7 +19,6 @@ int main() {
 
         int duplicateIdx[2]; // Indices of the overlapping point
 
-        // Find the overlapping point
         for (int i = 0; i < 4; i++) {
             for (int j = i + 1; j < 4; j++) {
                 if (x[i] == x[j] && y[i] == y[j]) {
@@ -29,8 +28,10 @@ int main() {
             }
         }
 
-        double baseX, baseY;
-        double oppositeX, oppositeY;
+        double baseX = 0.0;
+        double baseY = 0.0;
+        double oppositeX = 0.0;
+        double oppositeY = 0.0;
 
         double sharedX = x[duplicateIdx[0]];
         double sharedY = y[duplicateIdx[0]];
