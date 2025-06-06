@@ -4,63 +4,14 @@
  * Status: AC
  */
 
-#include <cstdio>
-#include <cstdlib>
 #include <iostream>
-#include <string>
 
 using namespace std;
 
-int main(void) {
-    string line;
-
-    while (cin >> line && line != "0") {
-        if (line.length() == 1) {
-            cout << line << endl;
-            continue;
-        }
-        int sum;
-
-        while (line.length() > 1) {
-            sum = 0;
-
-            for (int i = 0; i < line.length(); i++)
-                sum += (int)line[i] - '0';
-
-            line = to_string(sum);
-        }
-        cout << sum << endl;
-    }
-
-    return 0;
-}
-
-/*
- * Author: 1chooo<hugo970217@gmail.com>
- * Problem link: https://zerojudge.tw/ShowProblem?problemid=c813
- * Status: AC
- */
-
-#include <cstdio>
-#include <cstdlib>
-#include <iostream>
-#include <string>
-
-using namespace std;
-
-int sumDigits(long long int num) {
-    int sum = 0;
-
-    while (num) {
-        sum += num % 10;
-        num /= 10;
-    }
-
-    return sum;
-}
+int sumDigits(long long int num);
 
 int main(void) {
-    long long int num;
+    long long int num = 0;
 
     while (cin >> num && num != 0) {
 
@@ -74,20 +25,7 @@ int main(void) {
     return 0;
 }
 
-/*
- * Author: 1chooo<hugo970217@gmail.com>
- * Problem link: https://zerojudge.tw/ShowProblem?problemid=c813
- * Status: AC
- */
-
-#include <cstdio>
-#include <cstdlib>
-#include <iostream>
-#include <string>
-
-using namespace std;
-
-int f(long long int num) {
+int sumDigits(long long int num) {
     int sum = 0;
 
     while (num) {
@@ -95,22 +33,5 @@ int f(long long int num) {
         num /= 10;
     }
 
-    if (sum > 9)
-        sum = f(sum);
-
     return sum;
-}
-
-int main(void) {
-
-    long long int num;
-
-    while (cin >> num) {
-        if (num == 0)
-            return 0;
-
-        cout << f(num) << "\n";
-    }
-
-    return 0;
 }
