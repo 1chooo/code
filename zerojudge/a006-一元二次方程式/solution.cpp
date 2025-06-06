@@ -11,11 +11,14 @@ using namespace std;
 
 void discriminant(int, int, int);
 
-int main() {
-    int a, b, c;
+int main(void) {
+    int a = 0;
+    int b = 0;
+    int c = 0;
     cin >> a >> b >> c;
 
     discriminant(a, b, c);
+
     return 0;
 }
 
