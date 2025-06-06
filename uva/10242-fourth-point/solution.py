@@ -4,6 +4,7 @@ Problem link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&
 Status: AC
 """
 
+
 def find_fourth_point(
     x1: float,
     y1: float,

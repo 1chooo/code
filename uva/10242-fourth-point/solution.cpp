@@ -4,29 +4,20 @@
  * Status: AC
  */
 
-#include <cstdio>
 #include <iostream>
 
 using namespace std;
 
 int main(void) {
-    double pointX[4];
-    double pointY[4];
+    double pointX[4] = {0.0};
+    double pointY[4] = {0.0};
 
     while (cin >> pointX[0] >> pointY[0]) {
         int index[2]; // the index of overlapping point
-        double firstX;
-        double firstY;
-        double secondX;
-        double secondY;
-        double thirdX;
-        double thirdY;
-        double fourthX;
-        double fourthY;
-        double vector1_X;
-        double vector1_Y;
-        double vector2_X;
-        double vector2_Y;
+        double firstX = 0.0;
+        double firstY = 0.0;
+        double thirdX = 0.0;
+        double thirdY = 0.0;
 
         for (int i = 1; i < 4; i++) {
             cin >> pointX[i] >> pointY[i];
@@ -43,8 +34,8 @@ int main(void) {
             }
         }
 
-        secondX = pointX[index[0]];
-        secondY = pointY[index[0]];
+        double secondX = pointX[index[0]];
+        double secondY = pointY[index[0]];
 
         int tmp = 1;
         for (int i = 0; i < 4; i++) {
@@ -60,15 +51,13 @@ int main(void) {
             }
         }
 
-        // calculate the vector of parallelogram
-        vector1_X = firstX - secondX;
-        vector1_Y = firstY - secondY;
-        vector2_X = thirdX - secondX;
-        ;
-        vector2_Y = thirdY - secondY;
+        double vector1_X = firstX - secondX;
+        double vector1_Y = firstY - secondY;
+        double vector2_X = thirdX - secondX;
+        double vector2_Y = thirdY - secondY;
 
-        fourthX = secondX + vector1_X + vector2_X;
-        fourthY = secondY + vector1_Y + vector2_Y;
+        double fourthX = secondX + vector1_X + vector2_X;
+        double fourthY = secondY + vector1_Y + vector2_Y;
 
         printf("%.3f %.3f\n", fourthX, fourthY);
     }
