@@ -11,7 +11,7 @@ const static auto _ = []() {
 
 class Solution {
     const int mod = 1e9 + 7;
-    int dp[200][201][201];
+    int dp[200][201][201] = {};
 
   public:
     int subsequencePairCount(vector<int> &nums) {
@@ -58,7 +58,8 @@ class Solution {
 
   public:
     int subsequencePairCount(vector<int> &A) {
-        int mod = 1e9 + 7, M = *max_element(A.begin(), A.end());
+        int mod = 1e9 + 7;
+        int M = *max_element(A.begin(), A.end());
         vector<vector<int>> dp(M + 1, vector<int>(M + 1, 0));
         dp[0][0] = 1;
 
@@ -81,6 +82,7 @@ class Solution {
         for (int i = 1; i <= M; ++i) {
             res = (res + dp[i][i]) % mod;
         }
+
         return res;
     }
 };
