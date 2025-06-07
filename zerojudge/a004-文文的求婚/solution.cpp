@@ -8,7 +8,7 @@
 
 using namespace std;
 
-int main() {
+int main(void) {
     int year;
 
     // Input constantly until EOF
