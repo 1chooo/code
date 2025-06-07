@@ -1,6 +1,6 @@
 /*
  * Author: 1chooo<hugo970217@gmail.com>
- * Problem link: https://vjudge.net/problem/UVA-1022
+ * Problem link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3463
  * Status: AC
  */
 
@@ -11,11 +11,12 @@
 
 using namespace std;
 
-void printPath(const map<string, string> &prev, const string v);
+void printPath(const map<string, string> &prev, const string &v);
 
 int main(void) {
     int times;
     cin >> times;
+
     while (times--) {
         int m;
         int n;
@@ -63,8 +64,8 @@ int main(void) {
     return 0;
 }
 
-void printPath(map<string, string> &prev, const string v) {
-    const string &u = prev[v];
+void printPath(const map<string, string> &prev, const string &v) {
+    const string &u = prev.at(v);
     if (u != v)
         printPath(prev, u);
     cout << v[0];
