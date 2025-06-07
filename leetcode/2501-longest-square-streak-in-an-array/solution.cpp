@@ -12,23 +12,23 @@ const static auto _ = []() {
 class Solution {
   private:
     map<int, int> visited;
-    int longest_length = -1;
-    int sqrt_num;
+    int longestLength = -1;
+    int sqrtNum = 0;
 
   public:
     int longestSquareStreak(vector<int> &nums) {
         sort(nums.begin(), nums.end());
 
         for (int num : nums) {
-            sqrt_num = sqrt(num);
-            if (sqrt_num * sqrt_num == num && visited.find(sqrt_num) != visited.end()) {
-                visited[num] = visited[sqrt_num] + 1;
-                longest_length = max(longest_length, visited[num]);
+            sqrtNum = sqrt(num);
+            if (sqrtNum * sqrtNum == num && visited.find(sqrtNum) != visited.end()) {
+                visited[num] = visited[sqrtNum] + 1;
+                longestLength = max(longestLength, visited[num]);
             } else {
                 visited[num] = 1;
             }
         }
 
-        return longest_length;
+        return longestLength;
     }
 };
