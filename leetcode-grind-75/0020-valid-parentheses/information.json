@@ -1,0 +1,41 @@
+{
+    "difficulty": "easy",
+    "similarQuestions": [
+        {
+            "title": "Generate Parentheses",
+            "titleSlug": "generate-parentheses",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Longest Valid Parentheses",
+            "titleSlug": "longest-valid-parentheses",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Remove Invalid Parentheses",
+            "titleSlug": "remove-invalid-parentheses",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Check If Word Is Valid After Substitutions",
+            "titleSlug": "check-if-word-is-valid-after-substitutions",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Check if a Parentheses String Can Be Valid",
+            "titleSlug": "check-if-a-parentheses-string-can-be-valid",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Move Pieces to Obtain a String",
+            "titleSlug": "move-pieces-to-obtain-a-string",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        }
+    ]
+}
