@@ -1,0 +1,47 @@
+{
+    "difficulty": "easy",
+    "similarQuestions": [
+        {
+            "title": "Merge k Sorted Lists",
+            "titleSlug": "merge-k-sorted-lists",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Merge Sorted Array",
+            "titleSlug": "merge-sorted-array",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Sort List",
+            "titleSlug": "sort-list",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Shortest Word Distance II",
+            "titleSlug": "shortest-word-distance-ii",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Add Two Polynomials Represented as Linked Lists",
+            "titleSlug": "add-two-polynomials-represented-as-linked-lists",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Longest Common Subsequence Between Sorted Arrays",
+            "titleSlug": "longest-common-subsequence-between-sorted-arrays",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Merge Two 2D Arrays by Summing Values",
+            "titleSlug": "merge-two-2d-arrays-by-summing-values",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        }
+    ]
+}
