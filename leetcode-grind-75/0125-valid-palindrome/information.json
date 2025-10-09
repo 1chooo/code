@@ -1,0 +1,41 @@
+{
+    "difficulty": "easy",
+    "similarQuestions": [
+        {
+            "title": "Palindrome Linked List",
+            "titleSlug": "palindrome-linked-list",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Valid Palindrome II",
+            "titleSlug": "valid-palindrome-ii",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Maximum Product of the Length of Two Palindromic Subsequences",
+            "titleSlug": "maximum-product-of-the-length-of-two-palindromic-subsequences",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Find First Palindromic String in the Array",
+            "titleSlug": "find-first-palindromic-string-in-the-array",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Valid Palindrome IV",
+            "titleSlug": "valid-palindrome-iv",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Maximum Palindromes After Operations",
+            "titleSlug": "maximum-palindromes-after-operations",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        }
+    ]
+}
