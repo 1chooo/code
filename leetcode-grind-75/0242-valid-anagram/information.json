@@ -1,0 +1,29 @@
+{
+    "difficulty": "easy",
+    "similarQuestions": [
+        {
+            "title": "Group Anagrams",
+            "titleSlug": "group-anagrams",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Palindrome Permutation",
+            "titleSlug": "palindrome-permutation",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Find All Anagrams in a String",
+            "titleSlug": "find-all-anagrams-in-a-string",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Find Resultant Array After Removing Anagrams",
+            "titleSlug": "find-resultant-array-after-removing-anagrams",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        }
+    ]
+}
