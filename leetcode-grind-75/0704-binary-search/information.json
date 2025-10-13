@@ -1,0 +1,17 @@
+{
+    "difficulty": "easy",
+    "similarQuestions": [
+        {
+            "title": "Search in a Sorted Array of Unknown Size",
+            "titleSlug": "search-in-a-sorted-array-of-unknown-size",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Maximum Count of Positive Integer and Negative Integer",
+            "titleSlug": "maximum-count-of-positive-integer-and-negative-integer",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        }
+    ]
+}
