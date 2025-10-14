@@ -1,0 +1,17 @@
+{
+    "difficulty": "easy",
+    "similarQuestions": [
+        {
+            "title": "Linked List Cycle II",
+            "titleSlug": "linked-list-cycle-ii",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Happy Number",
+            "titleSlug": "happy-number",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        }
+    ]
+}
