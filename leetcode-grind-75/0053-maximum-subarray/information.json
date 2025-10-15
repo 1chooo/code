@@ -1,0 +1,89 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Best Time to Buy and Sell Stock",
+            "titleSlug": "best-time-to-buy-and-sell-stock",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Maximum Product Subarray",
+            "titleSlug": "maximum-product-subarray",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Degree of an Array",
+            "titleSlug": "degree-of-an-array",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Longest Turbulent Subarray",
+            "titleSlug": "longest-turbulent-subarray",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Maximum Score Of Spliced Array",
+            "titleSlug": "maximum-score-of-spliced-array",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Maximum Absolute Sum of Any Subarray",
+            "titleSlug": "maximum-absolute-sum-of-any-subarray",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Maximum Subarray Sum After One Operation",
+            "titleSlug": "maximum-subarray-sum-after-one-operation",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Substring With Largest Variance",
+            "titleSlug": "substring-with-largest-variance",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Count Subarrays With Score Less Than K",
+            "titleSlug": "count-subarrays-with-score-less-than-k",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Maximum Value of a String in an Array",
+            "titleSlug": "maximum-value-of-a-string-in-an-array",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Find the Substring With Maximum Cost",
+            "titleSlug": "find-the-substring-with-maximum-cost",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "K Items With the Maximum Sum",
+            "titleSlug": "k-items-with-the-maximum-sum",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Maximum Good Subarray Sum",
+            "titleSlug": "maximum-good-subarray-sum",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Maximize Subarray Sum After Removing All Occurrences of One Element",
+            "titleSlug": "maximize-subarray-sum-after-removing-all-occurrences-of-one-element",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        }
+    ]
+}
