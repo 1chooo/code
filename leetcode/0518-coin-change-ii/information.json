@@ -1,0 +1,41 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Maximum Value of K Coins From Piles",
+            "titleSlug": "maximum-value-of-k-coins-from-piles",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Number of Ways to Earn Points",
+            "titleSlug": "number-of-ways-to-earn-points",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Count of Sub-Multisets With Bounded Sum",
+            "titleSlug": "count-of-sub-multisets-with-bounded-sum",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Length of the Longest Subsequence That Sums to Target",
+            "titleSlug": "length-of-the-longest-subsequence-that-sums-to-target",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "The Number of Ways to Make the Sum",
+            "titleSlug": "the-number-of-ways-to-make-the-sum",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Inverse Coin Change",
+            "titleSlug": "inverse-coin-change",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        }
+    ]
+}
