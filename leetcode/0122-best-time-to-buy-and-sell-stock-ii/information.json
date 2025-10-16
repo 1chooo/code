@@ -1,0 +1,41 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Best Time to Buy and Sell Stock",
+            "titleSlug": "best-time-to-buy-and-sell-stock",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Best Time to Buy and Sell Stock III",
+            "titleSlug": "best-time-to-buy-and-sell-stock-iii",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Best Time to Buy and Sell Stock IV",
+            "titleSlug": "best-time-to-buy-and-sell-stock-iv",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Best Time to Buy and Sell Stock with Cooldown",
+            "titleSlug": "best-time-to-buy-and-sell-stock-with-cooldown",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Best Time to Buy and Sell Stock with Transaction Fee",
+            "titleSlug": "best-time-to-buy-and-sell-stock-with-transaction-fee",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Maximum Profit From Trading Stocks",
+            "titleSlug": "maximum-profit-from-trading-stocks",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        }
+    ]
+}
