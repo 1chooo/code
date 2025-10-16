@@ -1,0 +1,83 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Maximum Product Subarray",
+            "titleSlug": "maximum-product-subarray",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "House Robber II",
+            "titleSlug": "house-robber-ii",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Paint House",
+            "titleSlug": "paint-house",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Paint Fence",
+            "titleSlug": "paint-fence",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "House Robber III",
+            "titleSlug": "house-robber-iii",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Non-negative Integers without Consecutive Ones",
+            "titleSlug": "non-negative-integers-without-consecutive-ones",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Coin Path",
+            "titleSlug": "coin-path",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Delete and Earn",
+            "titleSlug": "delete-and-earn",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Solving Questions With Brainpower",
+            "titleSlug": "solving-questions-with-brainpower",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Count Number of Ways to Place Houses",
+            "titleSlug": "count-number-of-ways-to-place-houses",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "House Robber IV",
+            "titleSlug": "house-robber-iv",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Mice and Cheese",
+            "titleSlug": "mice-and-cheese",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Largest Element in an Array after Merge Operations",
+            "titleSlug": "largest-element-in-an-array-after-merge-operations",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        }
+    ]
+}
