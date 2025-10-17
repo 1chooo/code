@@ -1,0 +1,35 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Peak Index in a Mountain Array",
+            "titleSlug": "peak-index-in-a-mountain-array",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Find a Peak Element II",
+            "titleSlug": "find-a-peak-element-ii",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Pour Water Between Buckets to Make Water Levels Equal",
+            "titleSlug": "pour-water-between-buckets-to-make-water-levels-equal",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Count Hills and Valleys in an Array",
+            "titleSlug": "count-hills-and-valleys-in-an-array",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Find the Peaks",
+            "titleSlug": "find-the-peaks",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        }
+    ]
+}
