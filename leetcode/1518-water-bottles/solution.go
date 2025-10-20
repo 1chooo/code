@@ -1,3 +1,9 @@
+/**
+ * Author: 1chooo<hugo@1chooo.com>
+ * Problem: https://leetcode.com/problems/add-two-numbers/
+ * Runtime: 0ms (100.00%)
+ */
+
 // recursive (fatest, 0ms)
 func numWaterBottles(numBottles int, numExchange int) int {
 	if numBottles < numExchange {
