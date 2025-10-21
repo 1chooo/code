@@ -1,0 +1,11 @@
+{
+    "difficulty": "easy",
+    "similarQuestions": [
+        {
+            "title": "Convert Sorted List to Binary Search Tree",
+            "titleSlug": "convert-sorted-list-to-binary-search-tree",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        }
+    ]
+}
