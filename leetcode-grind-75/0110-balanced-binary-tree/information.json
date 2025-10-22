@@ -1,0 +1,23 @@
+{
+    "difficulty": "easy",
+    "similarQuestions": [
+        {
+            "title": "Maximum Depth of Binary Tree",
+            "titleSlug": "maximum-depth-of-binary-tree",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "K-th Largest Perfect Subtree Size in Binary Tree",
+            "titleSlug": "k-th-largest-perfect-subtree-size-in-binary-tree",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Check Balanced String",
+            "titleSlug": "check-balanced-string",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        }
+    ]
+}
