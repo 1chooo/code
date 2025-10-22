@@ -1,0 +1,11 @@
+{
+    "difficulty": "easy",
+    "similarQuestions": [
+        {
+            "title": "Implement Stack using Queues",
+            "titleSlug": "implement-stack-using-queues",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        }
+    ]
+}
