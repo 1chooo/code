@@ -1,0 +1,23 @@
+{
+    "difficulty": "easy",
+    "similarQuestions": [
+        {
+            "title": "Find First and Last Position of Element in Sorted Array",
+            "titleSlug": "find-first-and-last-position-of-element-in-sorted-array",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Search Insert Position",
+            "titleSlug": "search-insert-position",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Guess Number Higher or Lower",
+            "titleSlug": "guess-number-higher-or-lower",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        }
+    ]
+}
