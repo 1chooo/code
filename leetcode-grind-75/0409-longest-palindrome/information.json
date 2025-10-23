@@ -1,0 +1,23 @@
+{
+    "difficulty": "easy",
+    "similarQuestions": [
+        {
+            "title": "Palindrome Permutation",
+            "titleSlug": "palindrome-permutation",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Longest Palindrome by Concatenating Two Letter Words",
+            "titleSlug": "longest-palindrome-by-concatenating-two-letter-words",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Largest Palindromic Number",
+            "titleSlug": "largest-palindromic-number",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        }
+    ]
+}
