@@ -1,0 +1,29 @@
+{
+    "difficulty": "easy",
+    "similarQuestions": [
+        {
+            "title": "Add Two Numbers",
+            "titleSlug": "add-two-numbers",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Multiply Strings",
+            "titleSlug": "multiply-strings",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Plus One",
+            "titleSlug": "plus-one",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Add to Array-Form of Integer",
+            "titleSlug": "add-to-array-form-of-integer",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        }
+    ]
+}
