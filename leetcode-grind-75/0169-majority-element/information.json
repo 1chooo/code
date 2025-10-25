@@ -1,0 +1,47 @@
+{
+    "difficulty": "easy",
+    "similarQuestions": [
+        {
+            "title": "Majority Element II",
+            "titleSlug": "majority-element-ii",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Check If a Number Is Majority Element in a Sorted Array",
+            "titleSlug": "check-if-a-number-is-majority-element-in-a-sorted-array",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Most Frequent Even Element",
+            "titleSlug": "most-frequent-even-element",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Minimum Index of a Valid Split",
+            "titleSlug": "minimum-index-of-a-valid-split",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Minimum Operations to Exceed Threshold Value I",
+            "titleSlug": "minimum-operations-to-exceed-threshold-value-i",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Find the Most Common Response",
+            "titleSlug": "find-the-most-common-response",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Find Valid Pair of Adjacent Digits in String",
+            "titleSlug": "find-valid-pair-of-adjacent-digits-in-string",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        }
+    ]
+}
