@@ -1,0 +1,17 @@
+{
+    "difficulty": "easy",
+    "similarQuestions": [
+        {
+            "title": "Diameter of N-Ary Tree",
+            "titleSlug": "diameter-of-n-ary-tree",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Longest Path With Different Adjacent Characters",
+            "titleSlug": "longest-path-with-different-adjacent-characters",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        }
+    ]
+}
