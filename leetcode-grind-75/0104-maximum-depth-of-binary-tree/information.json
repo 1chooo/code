@@ -1,0 +1,41 @@
+{
+    "difficulty": "easy",
+    "similarQuestions": [
+        {
+            "title": "Balanced Binary Tree",
+            "titleSlug": "balanced-binary-tree",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Minimum Depth of Binary Tree",
+            "titleSlug": "minimum-depth-of-binary-tree",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Maximum Depth of N-ary Tree",
+            "titleSlug": "maximum-depth-of-n-ary-tree",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Time Needed to Inform All Employees",
+            "titleSlug": "time-needed-to-inform-all-employees",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Amount of Time for Binary Tree to Be Infected",
+            "titleSlug": "amount-of-time-for-binary-tree-to-be-infected",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Height of Binary Tree After Subtree Removal Queries",
+            "titleSlug": "height-of-binary-tree-after-subtree-removal-queries",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        }
+    ]
+}
