@@ -1,0 +1,17 @@
+{
+    "difficulty": "easy",
+    "similarQuestions": [
+        {
+            "title": "Delete the Middle Node of a Linked List",
+            "titleSlug": "delete-the-middle-node-of-a-linked-list",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Maximum Twin Sum of a Linked List",
+            "titleSlug": "maximum-twin-sum-of-a-linked-list",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        }
+    ]
+}
