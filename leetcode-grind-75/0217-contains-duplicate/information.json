@@ -1,0 +1,29 @@
+{
+    "difficulty": "easy",
+    "similarQuestions": [
+        {
+            "title": "Contains Duplicate II",
+            "titleSlug": "contains-duplicate-ii",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Contains Duplicate III",
+            "titleSlug": "contains-duplicate-iii",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Make Array Zero by Subtracting Equal Amounts",
+            "titleSlug": "make-array-zero-by-subtracting-equal-amounts",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Find Valid Pair of Adjacent Digits in String",
+            "titleSlug": "find-valid-pair-of-adjacent-digits-in-string",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        }
+    ]
+}
