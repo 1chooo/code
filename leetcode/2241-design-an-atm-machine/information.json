@@ -1,0 +1,17 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Simple Bank System",
+            "titleSlug": "simple-bank-system",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Minimum Number of Operations to Convert Time",
+            "titleSlug": "minimum-number-of-operations-to-convert-time",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        }
+    ]
+}
