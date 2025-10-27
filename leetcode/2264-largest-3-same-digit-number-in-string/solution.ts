@@ -1,3 +1,9 @@
+/**
+ * Author: Lin Hugo < hugo@1chooo.com >
+ * Problem: https://leetcode.com/problems/largest-3-same-digit-number-in-string
+ * Runtime: 1ms (73.40%)
+ */
+
 function largestGoodInteger(num: string): string {
     let maxGood: string = "";
 
