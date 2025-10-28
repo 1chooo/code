@@ -1,3 +1,7 @@
+// Author: Lin Hugo<hugo@1chooo.com>
+// Problem: https://leetcode.com/problems/filling-bookcase-shelves
+// Runtime: 0ms (100.00%)
+
 func min(a, b int) int {
 	if a < b {
 		return a
