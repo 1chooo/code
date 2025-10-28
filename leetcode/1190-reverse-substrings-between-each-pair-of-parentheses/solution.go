@@ -1,3 +1,7 @@
+// Author: Lin Hugo<hugo@1chooo.com>
+// Problem: https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses
+// Runtime: 0ms (100.00%)
+
 func reverseParentheses(s string) string {
 	cur := 0
 	stk := []int{}
@@ -20,7 +24,7 @@ func reverseParentheses(s string) string {
 }
 
 func reverse(runes []rune) {
-	for i, j := 0, len(runes) - 1; i < j; i, j = i + 1, j - 1 {
+	for i, j := 0, len(runes)-1; i < j; i, j = i+1, j-1 {
 		runes[i], runes[j] = runes[j], runes[i]
 	}
 }
