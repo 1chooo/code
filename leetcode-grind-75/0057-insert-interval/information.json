@@ -1,0 +1,23 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Merge Intervals",
+            "titleSlug": "merge-intervals",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Range Module",
+            "titleSlug": "range-module",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Count Integers in Intervals",
+            "titleSlug": "count-integers-in-intervals",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        }
+    ]
+}
