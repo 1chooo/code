@@ -1,0 +1,41 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Kth Largest Element in an Array",
+            "titleSlug": "kth-largest-element-in-an-array",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Top K Frequent Elements",
+            "titleSlug": "top-k-frequent-elements",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Top K Frequent Words",
+            "titleSlug": "top-k-frequent-words",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Find Nearest Point That Has the Same X or Y Coordinate",
+            "titleSlug": "find-nearest-point-that-has-the-same-x-or-y-coordinate",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Minimum Rectangles to Cover Points",
+            "titleSlug": "minimum-rectangles-to-cover-points",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "K-th Nearest Obstacle Queries",
+            "titleSlug": "k-th-nearest-obstacle-queries",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        }
+    ]
+}
