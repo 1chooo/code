@@ -1,0 +1,113 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Insert Interval",
+            "titleSlug": "insert-interval",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Meeting Rooms",
+            "titleSlug": "meeting-rooms",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Meeting Rooms II",
+            "titleSlug": "meeting-rooms-ii",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Teemo Attacking",
+            "titleSlug": "teemo-attacking",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Add Bold Tag in String",
+            "titleSlug": "add-bold-tag-in-string",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Range Module",
+            "titleSlug": "range-module",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Employee Free Time",
+            "titleSlug": "employee-free-time",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Partition Labels",
+            "titleSlug": "partition-labels",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Interval List Intersections",
+            "titleSlug": "interval-list-intersections",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Amount of New Area Painted Each Day",
+            "titleSlug": "amount-of-new-area-painted-each-day",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Longest Substring of One Repeating Character",
+            "titleSlug": "longest-substring-of-one-repeating-character",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Count Integers in Intervals",
+            "titleSlug": "count-integers-in-intervals",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Divide Intervals Into Minimum Number of Groups",
+            "titleSlug": "divide-intervals-into-minimum-number-of-groups",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Determine if Two Events Have Conflict",
+            "titleSlug": "determine-if-two-events-have-conflict",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Count Ways to Group Overlapping Ranges",
+            "titleSlug": "count-ways-to-group-overlapping-ranges",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Points That Intersect With Cars",
+            "titleSlug": "points-that-intersect-with-cars",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Count Days Without Meetings",
+            "titleSlug": "count-days-without-meetings",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Minimize Connected Groups by Inserting Interval",
+            "titleSlug": "minimize-connected-groups-by-inserting-interval",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        }
+    ]
+}
