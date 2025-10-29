@@ -1,0 +1,35 @@
+{
+    "difficulty": "easy",
+    "similarQuestions": [
+        {
+            "title": "Minimum Increment to Make Array Unique",
+            "titleSlug": "minimum-increment-to-make-array-unique",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Make Array Non-decreasing or Non-increasing",
+            "titleSlug": "make-array-non-decreasing-or-non-increasing",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Maximum Product After K Increments",
+            "titleSlug": "maximum-product-after-k-increments",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Minimum Replacements to Sort the Array",
+            "titleSlug": "minimum-replacements-to-sort-the-array",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Minimum Operations to Make Columns Strictly Increasing",
+            "titleSlug": "minimum-operations-to-make-columns-strictly-increasing",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        }
+    ]
+}
