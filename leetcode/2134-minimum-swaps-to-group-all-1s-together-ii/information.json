@@ -1,0 +1,17 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Minimum Swaps to Group All 1's Together",
+            "titleSlug": "minimum-swaps-to-group-all-1s-together",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Time Needed to Rearrange a Binary String",
+            "titleSlug": "time-needed-to-rearrange-a-binary-string",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        }
+    ]
+}
