@@ -1,6 +1,10 @@
+// Author: Lin Hugo <hugo@1chooo.com>
+// Problem: https://leetcode.com/problems/sort-the-people
+// Runtime: 1ms (85.00%)
+
 // method 1 with sort.Sort()
 func sortPeople(names []string, heights []int) []string {
-    n := len(names)
+	n := len(names)
 	mapping := make(map[int]string)
 
 	for i := 0; i < n; i++ {
@@ -16,13 +20,9 @@ func sortPeople(names []string, heights []int) []string {
 	return names
 }
 
-
-package main
-
-import (
-	"fmt"
-)
-
+// Author: Lin Hugo <hugo@1chooo.com>
+// Problem: https://leetcode.com/problems/sort-the-people
+// Runtime: 2ms (71.67%)
 
 // method 2 with quicksort
 func partition(arr []int, low, high int) int {
@@ -87,7 +87,6 @@ func sortPeople(names []string, heights []int) []string {
 	return names
 }
 
-
 // method 4 with insertion sort
 func sortPeople(names []string, heights []int) []string {
 	n := len(names)
@@ -113,7 +112,6 @@ func sortPeople(names []string, heights []int) []string {
 
 	return names
 }
-
 
 // method 5 with MergeSort
 func merge(arr []int, l, m, r int) {

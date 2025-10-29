@@ -1,0 +1,17 @@
+{
+    "difficulty": "easy",
+    "similarQuestions": [
+        {
+            "title": "Sort Array by Increasing Frequency",
+            "titleSlug": "sort-array-by-increasing-frequency",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Sort the Students by Their Kth Score",
+            "titleSlug": "sort-the-students-by-their-kth-score",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        }
+    ]
+}
