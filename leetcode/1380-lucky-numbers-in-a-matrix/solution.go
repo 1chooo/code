@@ -1,3 +1,7 @@
+// Author: Lin Hugo<hugo@1chooo.com>
+// Problem: https://leetcode.com/problems/lucky-numbers-in-a-matrix
+// Runtime: 0ms (100.00%)
+
 func luckyNumbers(matrix [][]int) []int {
     N, M := len(matrix), len(matrix[0])
     rowMin := make([]int, N)
