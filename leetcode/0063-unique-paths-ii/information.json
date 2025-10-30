@@ -1,0 +1,29 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Unique Paths",
+            "titleSlug": "unique-paths",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Unique Paths III",
+            "titleSlug": "unique-paths-iii",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Minimum Path Cost in a Grid",
+            "titleSlug": "minimum-path-cost-in-a-grid",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Paths in Matrix Whose Sum Is Divisible by K",
+            "titleSlug": "paths-in-matrix-whose-sum-is-divisible-by-k",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        }
+    ]
+}
