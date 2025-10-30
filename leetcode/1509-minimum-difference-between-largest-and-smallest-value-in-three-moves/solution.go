@@ -1,3 +1,7 @@
+// Author: Lin Hugo<hugo@1chooo.com>
+// Problem: https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves
+// Runtime: 15ms (72.73%)
+
 func minDifference(nums []int) int {
     n := len(nums)
 
