@@ -1,0 +1,23 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Shortest Path to Get Food",
+            "titleSlug": "shortest-path-to-get-food",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Minimum Operations to Remove Adjacent Ones in Matrix",
+            "titleSlug": "minimum-operations-to-remove-adjacent-ones-in-matrix",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Difference Between Ones and Zeros in Row and Column",
+            "titleSlug": "difference-between-ones-and-zeros-in-row-and-column",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        }
+    ]
+}
