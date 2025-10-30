@@ -1,0 +1,17 @@
+{
+    "difficulty": "easy",
+    "similarQuestions": [
+        {
+            "title": "Baseball Game",
+            "titleSlug": "baseball-game",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Backspace String Compare",
+            "titleSlug": "backspace-string-compare",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        }
+    ]
+}
