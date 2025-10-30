@@ -1,0 +1,41 @@
+{
+    "difficulty": "easy",
+    "similarQuestions": [
+        {
+            "title": "Sort Characters By Frequency",
+            "titleSlug": "sort-characters-by-frequency",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Divide Array Into Equal Pairs",
+            "titleSlug": "divide-array-into-equal-pairs",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Most Frequent Number Following Key In an Array",
+            "titleSlug": "most-frequent-number-following-key-in-an-array",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Maximum Number of Pairs in Array",
+            "titleSlug": "maximum-number-of-pairs-in-array",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Node With Highest Edge Score",
+            "titleSlug": "node-with-highest-edge-score",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Sort the People",
+            "titleSlug": "sort-the-people",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        }
+    ]
+}

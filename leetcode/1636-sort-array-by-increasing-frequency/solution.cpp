@@ -1,3 +1,9 @@
+/*
+ *  Author: Lin Hugo<hugo@1chooo.com>
+ * Problem: https://leetcode.com/problems/sort-array-by-increasing-frequency
+ * Runtime: 0ms (100.00%)
+ */
+
 class Solution {
   public:
     vector<int> frequencySort(vector<int> &nums) {

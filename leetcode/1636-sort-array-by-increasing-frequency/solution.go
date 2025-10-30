@@ -1,3 +1,7 @@
+// Author: Lin Hugo<hugo@1chooo.com>
+// Problem: https://leetcode.com/problems/sort-array-by-increasing-frequency
+// Runtime: 0ms (100.00%)
+
 func frequencySort(nums []int) []int {
 	freq := make(map[int]int)
 	for _, num := range nums {
@@ -25,4 +29,3 @@ func frequencySort(nums []int) []int {
 	}
 	return nums
 }
-
