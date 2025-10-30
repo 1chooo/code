@@ -1,0 +1,47 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Unique Paths II",
+            "titleSlug": "unique-paths-ii",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Minimum Path Sum",
+            "titleSlug": "minimum-path-sum",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Dungeon Game",
+            "titleSlug": "dungeon-game",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Minimum Path Cost in a Grid",
+            "titleSlug": "minimum-path-cost-in-a-grid",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Minimum Cost Homecoming of a Robot in a Grid",
+            "titleSlug": "minimum-cost-homecoming-of-a-robot-in-a-grid",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Number of Ways to Reach a Position After Exactly k Steps",
+            "titleSlug": "number-of-ways-to-reach-a-position-after-exactly-k-steps",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Paths in Matrix Whose Sum Is Divisible by K",
+            "titleSlug": "paths-in-matrix-whose-sum-is-divisible-by-k",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        }
+    ]
+}
