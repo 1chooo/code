@@ -1,3 +1,7 @@
+// Author: Lin Hugo<hugo@1chooo.com>
+// Problem: https://leetcode.com/problems/robot-collisions
+// Runtime: 41ms (100.00%)
+
 func survivedRobotsHealths(positions []int, healths []int, directions string) []int {
 	n := len(positions)
 	sorted := make([]int, n)
