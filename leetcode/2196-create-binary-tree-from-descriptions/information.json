@@ -1,0 +1,17 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Convert Sorted List to Binary Search Tree",
+            "titleSlug": "convert-sorted-list-to-binary-search-tree",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Number Of Ways To Reconstruct A Tree",
+            "titleSlug": "number-of-ways-to-reconstruct-a-tree",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        }
+    ]
+}
