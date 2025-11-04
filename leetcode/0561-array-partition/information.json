@@ -1,0 +1,23 @@
+{
+    "difficulty": "easy",
+    "similarQuestions": [
+        {
+            "title": "Minimum Difference Between Highest and Lowest of K Scores",
+            "titleSlug": "minimum-difference-between-highest-and-lowest-of-k-scores",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Minimum Cost of Buying Candies With Discount",
+            "titleSlug": "minimum-cost-of-buying-candies-with-discount",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "All Divisions With the Highest Score of a Binary Array",
+            "titleSlug": "all-divisions-with-the-highest-score-of-a-binary-array",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        }
+    ]
+}
