@@ -1,0 +1,59 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Binary Tree Zigzag Level Order Traversal",
+            "titleSlug": "binary-tree-zigzag-level-order-traversal",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Binary Tree Level Order Traversal II",
+            "titleSlug": "binary-tree-level-order-traversal-ii",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Minimum Depth of Binary Tree",
+            "titleSlug": "minimum-depth-of-binary-tree",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Binary Tree Vertical Order Traversal",
+            "titleSlug": "binary-tree-vertical-order-traversal",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Average of Levels in Binary Tree",
+            "titleSlug": "average-of-levels-in-binary-tree",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "N-ary Tree Level Order Traversal",
+            "titleSlug": "n-ary-tree-level-order-traversal",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Cousins in Binary Tree",
+            "titleSlug": "cousins-in-binary-tree",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Minimum Number of Operations to Sort a Binary Tree by Level",
+            "titleSlug": "minimum-number-of-operations-to-sort-a-binary-tree-by-level",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Divide Nodes Into the Maximum Number of Groups",
+            "titleSlug": "divide-nodes-into-the-maximum-number-of-groups",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        }
+    ]
+}
