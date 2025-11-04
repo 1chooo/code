@@ -1,3 +1,7 @@
+// Author: Lin Hugo<hugo@1chooo.com>
+// Problem: https://leetcode.com/problems/maximum-score-from-removing-substrings
+// Runtime: 4ms (100.00%)
+
 func maximumGain(s string, x, y int) int {
 	aCount := 0
 	bCount := 0
@@ -28,11 +32,4 @@ func maximumGain(s string, x, y int) int {
 
 	result += min(aCount, bCount) * lesser
 	return result
-}
-
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
 }
