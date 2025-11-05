@@ -1,0 +1,23 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Copy List with Random Pointer",
+            "titleSlug": "copy-list-with-random-pointer",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Clone Binary Tree With Random Pointer",
+            "titleSlug": "clone-binary-tree-with-random-pointer",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Clone N-ary Tree",
+            "titleSlug": "clone-n-ary-tree",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        }
+    ]
+}
