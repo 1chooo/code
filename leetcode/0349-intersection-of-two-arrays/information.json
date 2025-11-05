@@ -1,0 +1,53 @@
+{
+    "difficulty": "easy",
+    "similarQuestions": [
+        {
+            "title": "Intersection of Two Arrays II",
+            "titleSlug": "intersection-of-two-arrays-ii",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Intersection of Three Sorted Arrays",
+            "titleSlug": "intersection-of-three-sorted-arrays",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Find the Difference of Two Arrays",
+            "titleSlug": "find-the-difference-of-two-arrays",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Count Common Words With One Occurrence",
+            "titleSlug": "count-common-words-with-one-occurrence",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Choose Numbers From Two Arrays in Range",
+            "titleSlug": "choose-numbers-from-two-arrays-in-range",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Intersection of Multiple Arrays",
+            "titleSlug": "intersection-of-multiple-arrays",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Minimum Common Value",
+            "titleSlug": "minimum-common-value",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Maximum Size of a Set After Removals",
+            "titleSlug": "maximum-size-of-a-set-after-removals",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        }
+    ]
+}
