@@ -59,3 +59,29 @@ class Solution2:
         dummy.next = dummy.next.next
 
         return res.next
+
+
+"""
+* Author: Lin Hugo<hugo@1chooo.com>
+* Problem: https://leetcode.com/problems/remove-nth-node-from-end-of-list
+* Runtime: 0ms (100.00%)
+"""
+
+
+class Solution3:
+    def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
+        dummy = ListNode(0, head)
+        fast = slow = dummy
+
+        # Move fast n+1 steps so slow lands before target
+        for _ in range(n + 1):
+            fast = fast.next
+
+        # Move both
+        while fast:
+            fast = fast.next
+            slow = slow.next
+
+        # Remove
+        slow.next = slow.next.next
+        return dummy.next
