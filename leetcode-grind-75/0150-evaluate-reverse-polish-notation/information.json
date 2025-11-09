@@ -1,0 +1,17 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Basic Calculator",
+            "titleSlug": "basic-calculator",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Expression Add Operators",
+            "titleSlug": "expression-add-operators",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        }
+    ]
+}
