@@ -1,0 +1,53 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Design Add and Search Words Data Structure",
+            "titleSlug": "design-add-and-search-words-data-structure",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Design Search Autocomplete System",
+            "titleSlug": "design-search-autocomplete-system",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Replace Words",
+            "titleSlug": "replace-words",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Implement Magic Dictionary",
+            "titleSlug": "implement-magic-dictionary",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Encrypt and Decrypt Strings",
+            "titleSlug": "encrypt-and-decrypt-strings",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Implement Trie II (Prefix Tree)",
+            "titleSlug": "implement-trie-ii-prefix-tree",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Count Prefix and Suffix Pairs II",
+            "titleSlug": "count-prefix-and-suffix-pairs-ii",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Count Prefix and Suffix Pairs I",
+            "titleSlug": "count-prefix-and-suffix-pairs-i",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        }
+    ]
+}
