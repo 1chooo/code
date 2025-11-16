@@ -1,0 +1,35 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Course Schedule II",
+            "titleSlug": "course-schedule-ii",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Graph Valid Tree",
+            "titleSlug": "graph-valid-tree",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Minimum Height Trees",
+            "titleSlug": "minimum-height-trees",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Course Schedule III",
+            "titleSlug": "course-schedule-iii",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Build a Matrix With Conditions",
+            "titleSlug": "build-a-matrix-with-conditions",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        }
+    ]
+}
