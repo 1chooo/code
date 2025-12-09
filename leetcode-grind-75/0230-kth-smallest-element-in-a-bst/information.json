@@ -1,0 +1,17 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Binary Tree Inorder Traversal",
+            "titleSlug": "binary-tree-inorder-traversal",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Second Minimum Node In a Binary Tree",
+            "titleSlug": "second-minimum-node-in-a-binary-tree",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        }
+    ]
+}
