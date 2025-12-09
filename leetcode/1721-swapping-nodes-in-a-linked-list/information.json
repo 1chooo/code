@@ -1,0 +1,23 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Remove Nth Node From End of List",
+            "titleSlug": "remove-nth-node-from-end-of-list",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Swap Nodes in Pairs",
+            "titleSlug": "swap-nodes-in-pairs",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Reverse Nodes in k-Group",
+            "titleSlug": "reverse-nodes-in-k-group",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        }
+    ]
+}
