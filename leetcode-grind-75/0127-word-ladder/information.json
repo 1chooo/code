@@ -1,0 +1,23 @@
+{
+    "difficulty": "hard",
+    "similarQuestions": [
+        {
+            "title": "Word Ladder II",
+            "titleSlug": "word-ladder-ii",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Minimum Genetic Mutation",
+            "titleSlug": "minimum-genetic-mutation",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Words Within Two Edits of Dictionary",
+            "titleSlug": "words-within-two-edits-of-dictionary",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        }
+    ]
+}
