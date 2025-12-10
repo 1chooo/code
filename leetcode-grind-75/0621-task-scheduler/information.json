@@ -1,0 +1,41 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Rearrange String k Distance Apart",
+            "titleSlug": "rearrange-string-k-distance-apart",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Reorganize String",
+            "titleSlug": "reorganize-string",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Maximum Number of Weeks for Which You Can Work",
+            "titleSlug": "maximum-number-of-weeks-for-which-you-can-work",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Find Minimum Time to Finish All Jobs II",
+            "titleSlug": "find-minimum-time-to-finish-all-jobs-ii",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Task Scheduler II",
+            "titleSlug": "task-scheduler-ii",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Generate Schedule",
+            "titleSlug": "generate-schedule",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        }
+    ]
+}
