@@ -1,0 +1,53 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Two Sum",
+            "titleSlug": "two-sum",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Continuous Subarray Sum",
+            "titleSlug": "continuous-subarray-sum",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Subarray Product Less Than K",
+            "titleSlug": "subarray-product-less-than-k",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Find Pivot Index",
+            "titleSlug": "find-pivot-index",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Subarray Sums Divisible by K",
+            "titleSlug": "subarray-sums-divisible-by-k",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Minimum Operations to Reduce X to Zero",
+            "titleSlug": "minimum-operations-to-reduce-x-to-zero",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "K Radius Subarray Averages",
+            "titleSlug": "k-radius-subarray-averages",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Maximum Sum Score of Array",
+            "titleSlug": "maximum-sum-score-of-array",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        }
+    ]
+}
