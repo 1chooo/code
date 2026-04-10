@@ -1,0 +1,41 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Trapping Rain Water",
+            "titleSlug": "trapping-rain-water",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Maximum Product Subarray",
+            "titleSlug": "maximum-product-subarray",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Paint House II",
+            "titleSlug": "paint-house-ii",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Minimum Difference in Sums After Removal of Elements",
+            "titleSlug": "minimum-difference-in-sums-after-removal-of-elements",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Construct Product Matrix",
+            "titleSlug": "construct-product-matrix",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Find Sum of Array Product of Magical Sequences",
+            "titleSlug": "find-sum-of-array-product-of-magical-sequences",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        }
+    ]
+}
