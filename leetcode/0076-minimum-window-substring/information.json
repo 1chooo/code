@@ -1,0 +1,53 @@
+{
+    "difficulty": "hard",
+    "similarQuestions": [
+        {
+            "title": "Substring with Concatenation of All Words",
+            "titleSlug": "substring-with-concatenation-of-all-words",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Minimum Size Subarray Sum",
+            "titleSlug": "minimum-size-subarray-sum",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Sliding Window Maximum",
+            "titleSlug": "sliding-window-maximum",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Permutation in String",
+            "titleSlug": "permutation-in-string",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Smallest Range Covering Elements from K Lists",
+            "titleSlug": "smallest-range-covering-elements-from-k-lists",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Minimum Window Subsequence",
+            "titleSlug": "minimum-window-subsequence",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Count Substrings That Can Be Rearranged to Contain a String II",
+            "titleSlug": "count-substrings-that-can-be-rearranged-to-contain-a-string-ii",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Count Substrings That Can Be Rearranged to Contain a String I",
+            "titleSlug": "count-substrings-that-can-be-rearranged-to-contain-a-string-i",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        }
+    ]
+}
