@@ -1,0 +1,53 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Lowest Common Ancestor of a Binary Search Tree",
+            "titleSlug": "lowest-common-ancestor-of-a-binary-search-tree",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Smallest Common Region",
+            "titleSlug": "smallest-common-region",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Find Players With Zero or One Losses",
+            "titleSlug": "find-players-with-zero-or-one-losses",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Lowest Common Ancestor of a Binary Tree II",
+            "titleSlug": "lowest-common-ancestor-of-a-binary-tree-ii",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Lowest Common Ancestor of a Binary Tree III",
+            "titleSlug": "lowest-common-ancestor-of-a-binary-tree-iii",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Lowest Common Ancestor of a Binary Tree IV",
+            "titleSlug": "lowest-common-ancestor-of-a-binary-tree-iv",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Step-By-Step Directions From a Binary Tree Node to Another",
+            "titleSlug": "step-by-step-directions-from-a-binary-tree-node-to-another",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Cycle Length Queries in a Tree",
+            "titleSlug": "cycle-length-queries-in-a-tree",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        }
+    ]
+}
