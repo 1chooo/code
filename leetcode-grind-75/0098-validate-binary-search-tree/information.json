@@ -1,0 +1,17 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Binary Tree Inorder Traversal",
+            "titleSlug": "binary-tree-inorder-traversal",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Find Mode in Binary Search Tree",
+            "titleSlug": "find-mode-in-binary-search-tree",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        }
+    ]
+}
