@@ -1,0 +1,41 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Shortest Palindrome",
+            "titleSlug": "shortest-palindrome",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Palindrome Permutation",
+            "titleSlug": "palindrome-permutation",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Palindrome Pairs",
+            "titleSlug": "palindrome-pairs",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Longest Palindromic Subsequence",
+            "titleSlug": "longest-palindromic-subsequence",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Palindromic Substrings",
+            "titleSlug": "palindromic-substrings",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Maximum Number of Non-overlapping Palindrome Substrings",
+            "titleSlug": "maximum-number-of-non-overlapping-palindrome-substrings",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        }
+    ]
+}
