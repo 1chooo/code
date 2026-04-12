@@ -1,3 +1,7 @@
+// Author: Lin Hugo<hugo@1chooo.com>
+// Problem: https://leetcode.com/problems/sort-an-array
+// Runtime: 35ms (76.84%)
+
 // method1: merge sort
 func sortArray(nums []int) []int {
 	buff := make([]int, len(nums))
@@ -38,6 +42,10 @@ func mergeSort(A []int, start int, end int, buff []int) {
 	mergeSort(A, mid+1, end, buff)
 	merge(A, start, mid, end, buff)
 }
+
+// Author: Lin Hugo<hugo@1chooo.com>
+// Problem: https://leetcode.com/problems/sort-an-array
+// Runtime: 0ms (100.00%)
 
 // method2: counting sort
 func sortArray(nums []int) []int {
@@ -91,6 +99,10 @@ func quickSort(nums []int, start, end int) {
 	quickSort(nums, start, left-1)
 	quickSort(nums, left+1, end)
 }
+
+// Author: Lin Hugo<hugo@1chooo.com>
+// Problem: https://leetcode.com/problems/sort-an-array
+// Runtime: 15ms (87.11%)
 
 // method4: radix sort
 func sortArray(nums []int) []int {
@@ -147,8 +159,11 @@ func radixSort(nums []int, bucket [64][]int, xmin int) {
 			i++
 		}
 	}
-
 }
+
+// Author: Lin Hugo<hugo@1chooo.com>
+// Problem: https://leetcode.com/problems/sort-an-array
+// Runtime: 27ms (80.00%)
 
 // method5: heap sort
 func sortArray(nums []int) []int {
