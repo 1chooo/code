@@ -1,0 +1,17 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Populating Next Right Pointers in Each Node",
+            "titleSlug": "populating-next-right-pointers-in-each-node",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Boundary of Binary Tree",
+            "titleSlug": "boundary-of-binary-tree",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        }
+    ]
+}
