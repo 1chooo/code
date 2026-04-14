@@ -1,0 +1,11 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Construct Binary Tree from Inorder and Postorder Traversal",
+            "titleSlug": "construct-binary-tree-from-inorder-and-postorder-traversal",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        }
+    ]
+}
