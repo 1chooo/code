@@ -1,0 +1,29 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "LFU Cache",
+            "titleSlug": "lfu-cache",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Design In-Memory File System",
+            "titleSlug": "design-in-memory-file-system",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        },
+        {
+            "title": "Design Compressed String Iterator",
+            "titleSlug": "design-compressed-string-iterator",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Design Most Recently Used Queue",
+            "titleSlug": "design-most-recently-used-queue",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        }
+    ]
+}
