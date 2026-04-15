@@ -1,0 +1,23 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Redundant Connection",
+            "titleSlug": "redundant-connection",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Sentence Similarity",
+            "titleSlug": "sentence-similarity",
+            "difficulty": "Easy",
+            "translatedTitle": null
+        },
+        {
+            "title": "Sentence Similarity II",
+            "titleSlug": "sentence-similarity-ii",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        }
+    ]
+}
